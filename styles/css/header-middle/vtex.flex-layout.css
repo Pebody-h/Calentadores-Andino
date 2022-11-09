@@ -1,0 +1,18 @@
+.flexRow--header__middle {
+    height: 2.8em;
+    background-color: var(--global-color-secondary);
+}
+
+.flexRowContent--header__middle {
+    margin: 0;
+    padding: 0;
+}
+
+.flexRow--link__phone {
+    margin: 0;
+    padding: 0;
+    height: 2.8em;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}

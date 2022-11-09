@@ -1,0 +1,148 @@
+{
+    "submenu.accordion#department__shop": {
+        "title": "Departamento Tienda",
+        "children": [
+            "menu#department__shop"
+        ]
+    },
+    "menu#department__shop": {
+        "title": "Categorias",
+        "children": [
+            "menu-item#category__electric",
+            "menu-item#category__gas",
+            "menu-item#category__home",
+            "menu-item#category__industry",
+            "menu-item#category__step",
+            "menu-item#category__accumulation",
+            "menu-item#category__andino",
+            "menu-item#category__haceb",
+            "menu-item#category__challenger"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#category__electric": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Calentadores Eléctricos",
+                "text": "Calentadores Eléctricos"
+            }
+        }
+    },
+    "menu-item#category__gas": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Calentadores a Gas",
+                "text": "Calentadores a Gas"
+            }
+        }
+    },
+    "menu-item#category__home": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Ideal para el Hogar",
+                "text": "Ideal para el Hogar"
+            }
+        }
+    },
+    "menu-item#category__industry": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Ideal para la Industria",
+                "text": "Ideal para la Industria"
+            }
+        }
+    },
+    "menu-item#category__step": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Calentadores de Pasos",
+                "text": "Calentadores de Paso"
+            }
+        },
+        "blocks": [
+            "submenu.accordion#category__step"
+        ]
+    },
+    "menu-item#category__accumulation": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Calentadores de Acumulación",
+                "text": "Calentadores de Acumulación"
+            }
+        },
+        "blocks": [
+            "submenu.accordion#category__accumulation"
+        ]
+    },
+    "menu-item#category__andino": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Calentadores Andino",
+                "text": "Calentadores Andino"
+            }
+        }
+    },
+    "menu-item#category__haceb": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Calentadores Haceb",
+                "text": "Calentadores Haceb"
+            }
+        }
+    },
+    "menu-item#category__challenger": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Calentadores Challenger",
+                "text": "Calentadores Challenger"
+            }
+        }
+    }
+}

@@ -1,0 +1,8 @@
+{
+  "header-layout.desktop": {
+    "title": "barra navegación escritorio",
+    "children": [
+      "header-row#header__desktop"
+    ]
+  }
+}

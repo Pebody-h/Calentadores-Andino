@@ -1,0 +1,9 @@
+.videoElement--layout__video {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 66.9em;
+    position: absolute;
+    z-index: 999;
+    overflow: hidden;
+}

@@ -1,0 +1,9 @@
+{
+  "store.home": {
+    "blocks": [
+      "responsive-layout.desktop#information",
+      "responsive-layout.tablet#information",
+      "flex-layout.row#home__video"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+.logoImage--logo__image {
+    width: 11.2em;
+}
+
+.logoLink--logo__image {
+    margin: .74em 2em;
+}
+
+.logoLink--logo__image :hover {
+    transition: transform .4s;
+    transform: scale(1.1);
+}

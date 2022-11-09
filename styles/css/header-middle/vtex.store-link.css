@@ -1,0 +1,13 @@
+.link--link__phone {
+    margin: 0;
+    padding: 0;
+    width: max-content !important;
+    color: var(--font-secondary-color);
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.label--link__phone {
+    margin: 0;
+    padding: 0;
+}

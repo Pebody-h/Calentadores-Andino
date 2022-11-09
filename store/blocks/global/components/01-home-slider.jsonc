@@ -1,0 +1,48 @@
+{
+    "slider-layout#home__slider": {
+        "title": "Slider Home",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "mobile": 1
+            },
+            "infinite": true,
+            "blockClass": "home__slider",
+            "autplay": {
+                "timeout": 4000,
+                "stopOnHover": false
+            }
+        },
+        "children": [
+            "image#home__slider--one",
+            "image#home__slider--two",
+            "image#home__slider--three",
+            "image#home__slider--four"
+        ]
+    },
+    "image#home__slider--one": {
+        "title": "Slide Promocional",
+        "props": {
+            "src": "assets/img/Banners/banner-1-.jpg"
+        }
+    },
+    "image#home__slider--two": {
+        "title": "Slide 2",
+        "props": {
+            "src": "assets/img/Banners/banner-2-.jpg"
+        }
+    },
+    "image#home__slider--three": {
+        "title": "Slide 3",
+        "props": {
+            "src": "assets/img/Banners/banner-3-.jpg"
+        }
+    },
+    "image#home__slider--four": {
+        "title": "Slide 4",
+        "props": {
+            "src": "assets/img/Banners/banner-4-.jpg"
+        }
+    }
+}

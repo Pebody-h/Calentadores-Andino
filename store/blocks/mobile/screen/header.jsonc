@@ -1,0 +1,15 @@
+{
+  "header-layout.mobile": {
+    "title": "barra navegación moviles",
+    "children": [
+      "responsive-layout.phone#menu",
+      "responsive-layout.tablet#menu"
+    ]
+  },
+  "responsive-layout.phone#menu": {
+    "title": "telefono",
+    "children": [
+      "header-row#header__phone"
+    ]
+  }
+}

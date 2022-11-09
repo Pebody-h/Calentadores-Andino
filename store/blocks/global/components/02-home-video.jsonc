@@ -1,0 +1,54 @@
+{
+    "flex-layout.row#home__video": {
+        "title": "sección de video",
+        "children": [
+            "video#layout__video",
+            "flex-layout.col#layout__text"
+        ],
+        "props": {
+            "blockClass": "home__video"
+        }
+    },
+    "video#layout__video": {
+        "title": "Video",
+        "props": {
+            "controlsType": "none",
+            "loop": true,
+            "autoPlay": true,
+            "muted": false,
+            "src": "https://www.youtube.com/embed/MkF7ZiEfbTw?controls=0&rel=0&playsinline=1&enablejsapi=1&origin=https%3A%2F%2Fcalentadoresandino.com&widgetid=1",
+            "blockClass": "layout__video"
+        }
+    },
+    "flex-layout.col#layout__text": {
+        "title": "Información",
+        "children": [
+            "rich-text#text__1",
+            "rich-text#text__2",
+            "rich-text#text__3"
+        ],
+        "props": {
+            "blockClass": "home__information",
+            "verticalAling": "middle",
+            "horizontalAling": "middle"
+        }
+    },
+    "rich-text#text__1": {
+        "title": "Texto 1",
+        "props": {
+            "text": "CALENTADORES ANDINO"
+        }
+    },
+    "rich-text#text__2": {
+        "title": "Texto 2",
+        "props": {
+            "text": "Venta, reparación y mantenimiento de calentadores"
+        }
+    },
+    "rich-text#text__3": {
+        "title": "Texto 3",
+        "props": {
+            "text": "3219369771"
+        }
+    }
+}

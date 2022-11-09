@@ -1,0 +1,13 @@
+{
+    "header-row#header__desktop": {
+        "title": "Barra navegación",
+        "children": [
+            "header-spacer",
+            "logo#header__logo",
+            "menu#header__menu--desktop",
+            "minicart.v2",
+            "login",
+            "header-spacer"
+        ]
+    }
+}

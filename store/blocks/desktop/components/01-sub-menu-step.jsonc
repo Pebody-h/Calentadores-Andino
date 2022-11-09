@@ -1,0 +1,58 @@
+{
+    "submenu.accordion#category__step": {
+        "title": "Sub-Categorias De Paso",
+        "children": [
+            "menu#category__step"
+        ]
+    },
+    "menu#category__step": {
+        "title": "Sub-Categorias",
+        "children": [
+            "menu-item#sub__category-natural",
+            "menu-item#sub__category-forced",
+            "menu-item#sub__category-modulating"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#sub__category-natural": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Tiro Natural",
+                "text": "Tiro Natural"
+            }
+        }
+    },
+    "menu-item#sub__category-forced": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Tiro Forzado",
+                "text": "Tiro Forzado"
+            }
+        }
+    },
+    "menu-item#sub__category-modulating": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Modulante",
+                "text": "Modulante"
+            }
+        }
+    }
+}

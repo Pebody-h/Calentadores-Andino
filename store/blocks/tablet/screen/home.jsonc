@@ -1,0 +1,8 @@
+{
+  "responsive-layout.tablet#information": {
+    "title": "Tablet",
+    "children": [
+      "slider-layout#home__slider"
+    ]
+  }
+}

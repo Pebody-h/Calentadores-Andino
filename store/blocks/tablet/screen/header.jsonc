@@ -1,0 +1,8 @@
+{
+  "responsive-layout.tablet#menu": {
+    "title": "tablet",
+    "children": [
+      "header-row#header__tablet"
+    ]
+  }
+}

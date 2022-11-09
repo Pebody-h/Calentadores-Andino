@@ -1,0 +1,9 @@
+{
+  "responsive-layout.desktop#information": {
+    "title": "Escritorio",
+    "children": [
+      "flex-layout.row#header__middle",
+      "slider-layout#home__slider"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+.container--email {
+    margin: 0;
+    padding: 0;
+    height: 2.8em;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.link--email {
+    color: var(--font-secondary-color);
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.container--working__hours {
+    margin: 0;
+    padding: 0;
+    height: 2.8em;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraph--working__hours {
+    color: var(--font-secondary-color);
+    font-size: 12px;
+    text-decoration: none;
+}

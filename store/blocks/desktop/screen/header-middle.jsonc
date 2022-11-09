@@ -1,0 +1,95 @@
+{
+    "flex-layout.row#header__middle": {
+        "title": "sección de información",
+        "children": [
+            "flex-layout.row#layout__phone",
+            "flex-layout.row#layout__email",
+            "flex-layout.row#layout__working--hours",
+            "header-spacer",
+            "flex-layout.row#layout__networks"
+        ],
+        "props": {
+            "blockClass": "header__middle"
+        }
+    },
+    "flex-layout.row#layout__phone": {
+        "title": "Telefono",
+        "children": [
+            "link#phone"
+        ],
+        "props": {
+            "blockClass": "link__phone"
+        }
+    },
+    "link#phone": {
+        "title": "Numero",
+        "props": {
+            "href": "tel:+573219369771",
+            "label": "+573219369771",
+            "blockClass": "link__phone"
+        }
+    },
+    "flex-layout.row#layout__email": {
+        "title": "Correo electronico",
+        "children": [
+            "rich-text#email"
+        ],
+        "props": {
+            "blockClass": "email"
+        }
+    },
+    "rich-text#email": {
+        "title": "Correo",
+        "props": {
+            "text": "calentadoresandino2020@gmail.com",
+            "blockClass": "email"
+        }
+    },
+    "flex-layout.row#layout__working--hours": {
+        "title": "Horario de atención",
+        "children": [
+            "rich-text#working__hours"
+        ],
+        "props": {
+            "blockClass": "working__hours"
+        }
+    },
+    "rich-text#working__hours": {
+        "title": "Horarios",
+        "props": {
+            "text": "Lun- Vier: 7:00 - 18:00",
+            "blockClass": "working__hours"
+        }
+    },
+    "flex-layout.row#layout__networks": {
+        "title": "Redes sociales",
+        "children": [
+            "icon#facebook",
+            "icon#whatsapp",
+            "icon#instagram"
+        ],
+        "props": {
+            "blockClass": "social__networks"
+        }
+    },
+    "icon#facebook": {
+        "props": {
+            "id": "facebook-icon",
+            "blockClass": "facebook"
+        }
+    },
+    "icon#whatsapp": {
+        "props": {
+            "id": "whatsapp",
+            "size": 40,
+            "blockClass": "whatsapp"
+        }
+    },
+    "icon#instagram": {
+        "props": {
+            "id": "facebook-icon",
+            "size": 40,
+            "blockClass": "instagram"
+        }
+    }
+}

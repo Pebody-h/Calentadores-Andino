@@ -1,0 +1,11 @@
+{
+    "logo#header__logo": {
+        "title": "Logo",
+        "props": {
+            "url": "assets/img/Logos/Logo-Grande.png",
+            "width": "170",
+            "href": "/",
+            "blockClass": "logo__image"
+        }
+    }
+}

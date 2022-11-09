@@ -1,0 +1,28 @@
+{
+    "header-row#header__phone": {
+        "title": "Barra navegación",
+        "children": [
+            "logo#header__logo",
+            "header-spacer",
+            "drawer#header__menu--mobile"
+        ]
+    },
+    "drawer#header__menu--mobile": {
+        "title": "menu",
+        "children": [
+            "menu#header__menu--mobile"
+        ]
+    },
+    "menu#header__menu--mobile": {
+        "title": "Departamentos",
+        "children": [
+            "menu-item#department__shop",
+            "menu-item#department__acount",
+            "menu-item#department__service",
+            "menu-item#department__about-us"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    }
+}

@@ -1,0 +1,69 @@
+{
+    "menu#header__menu--desktop": {
+        "title": "Departamentos",
+        "children": [
+            "menu-item#department__shop",
+            "menu-item#department__acount",
+            "menu-item#department__service",
+            "menu-item#department__about-us"
+        ]
+    },
+    "menu-item#department__shop": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Tienda",
+                "text": "TIENDA"
+            }
+        },
+        "blocks": [
+            "submenu.accordion#department__shop"
+        ]
+    },
+    "menu-item#department__acount": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Mi Cuenta",
+                "text": "MI CUENTA"
+            }
+        },
+        "blocks": [
+            "submenu.accordion#department__acount"
+        ]
+    },
+    "menu-item#department__service": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Servicio Técnico",
+                "text": "SERVICIO TÉCNICO"
+            }
+        }
+    },
+    "menu-item#department__about-us": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Sobre Nosotros",
+                "text": "SOBRE NOSOTROS"
+            }
+        }
+    }
+}

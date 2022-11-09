@@ -1,0 +1,14 @@
+{
+    "login": {
+        "props": {
+            "emailAndPasswordTitle": "Inicia Sesion",
+            "accessCodeTitle": "Inicia Sesion Con Codigo",
+            "emailPlaceholder": "Nombre de usuario o correo electrónico",
+            "passwordPlaceholder": "Contraseña",
+            "showPasswordVerificationIntoTooltip": false,
+            "showIconProfile": true,
+            "hideIconLabel": true,
+            "logInButtonBehavior": "link"
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "submenu.accordion#department__acount": {
+        "title": "Departamento Mi Cuenta",
+        "children": [
+            "menu#department__acount"
+        ]
+    },
+    "menu#department__acount": {
+        "title": "Categorias",
+        "children": [
+            "menu-item#category__purchase",
+            "menu-item#category__trolley"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#category__purchase": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Finalizar Compra",
+                "text": "Finalizar Compra"
+            }
+        }
+    },
+    "menu-item#category__trolley": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Carrito",
+                "text": "Carrito"
+            }
+        }
+    }
+}

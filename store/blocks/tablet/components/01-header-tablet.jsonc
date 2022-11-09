@@ -1,0 +1,8 @@
+{
+    "header-row#header__tablet": {
+        "title": "barra navegación tablet",
+        "children": [
+            "header-row#header__desktop"
+        ]
+    }
+}
