@@ -5,5 +5,10 @@
       "flex-layout.row#header__middle",
       "slider-layout#home__slider"
     ]
+  },
+  "search-result-layout.desktop#home__search--desktop": {
+    "children": [
+      "flex-layout.row#home__results"
+    ]
   }
 }

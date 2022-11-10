@@ -1,14 +1,22 @@
 .flexRow--home__video {
     margin: 3em 0;
     padding: 0;
+    height: 66.9em;
 }
 
-/* .stretchChildrenWidth {
+.flexRow--home__video :global(.vtex-store-components-3-x-container) {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.flexRow--home__video :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
     margin: 0;
     padding: 0;
     width: 100% !important;
     height: 66.9em;
     position: absolute;
-    z-index: 999;
+    z-index: 998;
     overflow: hidden;
-} */
+}

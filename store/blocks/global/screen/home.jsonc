@@ -3,7 +3,9 @@
     "blocks": [
       "responsive-layout.desktop#information",
       "responsive-layout.tablet#information",
-      "flex-layout.row#home__video"
+      "flex-layout.row#home__video",
+      "flex-layout.row#home__section--novelties",
+      "search-result-layout.customQuery#home__showcase--novelties"
     ]
   }
 }

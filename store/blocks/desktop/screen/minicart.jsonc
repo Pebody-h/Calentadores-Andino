@@ -1,0 +1,37 @@
+{
+    "minicart.v2": {
+        "props": {
+            "quantityDisplay": "always"
+        },
+        "children": [
+            "minicart-base-content"
+        ]
+    },
+    "minicart-base-content": {
+        "blocks": [
+            "minicart-empty-state"
+        ],
+        "children": [
+            "minicart-product-list",
+            "flex-layout.row#minicart__footer"
+        ]
+    },
+    "minicart-empty-state": {
+        "children": [
+            "rich-text#text__empty"
+        ]
+    },
+    "rich-text#text__empty": {
+        "title": "Texto Carrito",
+        "props": {
+            "text": "No products in the cart.",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.row#minicart__footer": {
+        "children": [
+            "minicart-summary",
+            "minicart-checkout-button"
+        ]
+    }
+}
