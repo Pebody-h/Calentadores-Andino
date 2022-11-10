@@ -8,6 +8,9 @@
             "minicart.v2",
             "login",
             "header-spacer"
-        ]
+        ],
+        "props": {
+            "sticky": true
+        }
     }
 }

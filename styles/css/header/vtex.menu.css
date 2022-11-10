@@ -1,4 +1,27 @@
+.styledLinkContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5.7em;
+}
+
+.styledLinkContainer:hover {
+    border-bottom: 3px solid var(--hover-header-color)
+}
+
+.styledLinkContainer::selection {
+    border-bottom: 3px solid var(--hover-header-color)
+}
+
 .styledLinkContent {
     color: var(--font-header-color);
     font-size: 14px;
+}
+
+.styledLinkContent:hover {
+    color: var(--hover-header-color)
+}
+
+.styledLinkContent::selection {
+    color: var(--hover-header-color)
 }
