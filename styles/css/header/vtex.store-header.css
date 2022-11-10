@@ -1,4 +1,6 @@
 .headerRowBackground {
     justify-content: center;
     align-items: center;
+    height: 5.7em;
+    z-index: 999;
 }

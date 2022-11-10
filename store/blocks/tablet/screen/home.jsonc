@@ -4,5 +4,6 @@
     "children": [
       "slider-layout#home__slider"
     ]
-  }
+  },
+  "responsive-layout.tablet#search__novelties": {}
 }
