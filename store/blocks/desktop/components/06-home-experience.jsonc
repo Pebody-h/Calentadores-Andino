@@ -1,6 +1,6 @@
 {
     "flex-layout.col#home__experience": {
-        "title": "Titulo",
+        "title": "Experiencia",
         "children": [
             "link#experience",
             "rich-text#text__experience"
