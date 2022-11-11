@@ -10,5 +10,11 @@
     "children": [
       "flex-layout.row#home__results"
     ]
+  },
+  "responsive-layout.desktop#home__categories": {
+    "title": "Sección Categorias",
+    "children": [
+      "flex-layout.col#home__categories-desktop"
+    ]
   }
 }

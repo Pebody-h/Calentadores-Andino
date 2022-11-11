@@ -1,0 +1,61 @@
+{
+    "flex-layout.col#home__categories-desktop": {
+        "title": "Opciones",
+        "children": [
+            "flex-layout.row#title__desktop",
+            "flex-layout.row#images__desktop",
+            "flex-layout.row#links__desktop"
+        ]
+    },
+    "flex-layout.row#title__desktop": {
+        "title": "Titulo",
+        "children": [
+            "rich-text#title__desktop"
+        ],
+        "props": {
+            "blockClass": "categories__title",
+            "verticalAling": "middle",
+            "horizontalAling": "middle"
+        }
+    },
+    "rich-text#title__desktop": {
+        "title": "Titulo",
+        "props": {
+            "text": "ENCUENTRA TU CALENTADOR IDEAL"
+        }
+    },
+    "flex-layout.row#images__desktop": {
+        "title": "Opciones",
+        "children": [
+            "image#image__electrical",
+            "image#image__gas",
+            "image#image__homes",
+            "image#image__industrial"
+        ]
+    },
+    "image#image__electrical": {
+        "title": "Imagen Electricos",
+        "props": {
+            "src": "https://storecomponents.vteximg.com.br/arquivos/box.png"
+        }
+    },
+    "image#image__gas": {
+        "title": "Imagen Gas",
+        "props": {
+            "src": "https://storecomponents.vteximg.com.br/arquivos/box.png"
+        }
+    },
+    "image#image__homes": {
+        "title": "Imagen Hogares",
+        "props": {
+            "src": "https://storecomponents.vteximg.com.br/arquivos/box.png"
+        }
+    },
+    "image#image__industrial": {
+        "title": "Imagen Industriales",
+        "props": {
+            "src": "https://storecomponents.vteximg.com.br/arquivos/box.png"
+        }
+    },
+    "flex-layout.row#links__desktop": {}
+}
