@@ -58,7 +58,7 @@
         }
     },
     "flex-layout.row#links__desktop": {
-        "title": "Imagen Industriales",
+        "title": "Links",
         "children": [
             "link#electrical",
             "link#gas",
