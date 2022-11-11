@@ -6,7 +6,8 @@
       "flex-layout.row#home__video",
       "flex-layout.row#home__section--novelties",
       "search-result-layout.customQuery#home__showcase--novelties",
-      "responsive-layout.desktop#home__categories"
+      "responsive-layout.desktop#home__categories",
+      "responsive-layout.desktop#home__experience"
     ]
   }
 }

@@ -16,5 +16,11 @@
     "children": [
       "flex-layout.col#home__categories-desktop"
     ]
+  },
+  "responsive-layout.desktop#home__experience": {
+    "title": "Sección Experiencia",
+    "children": [
+      "flex-layout.col#home__experience"
+    ]
   }
 }
