@@ -25,7 +25,7 @@
         }
     },
     "flex-layout.row#images__desktop": {
-        "title": "Opciones",
+        "title": "Imagenes",
         "children": [
             "image#image__electrical",
             "image#image__gas",
@@ -36,26 +36,66 @@
     "image#image__electrical": {
         "title": "Imagen Electricos",
         "props": {
-            "src": "https://storecomponents.vteximg.com.br/arquivos/box.png"
+            "src": "assets/img/Categorias/calentador-de-acumulacion-electrico-de-30-galones.jpg"
         }
     },
     "image#image__gas": {
         "title": "Imagen Gas",
         "props": {
-            "src": "https://storecomponents.vteximg.com.br/arquivos/box.png"
+            "src": "assets/img/Categorias/calentador-de-acumulacion-a-gas-de-10-galones.jpg"
         }
     },
     "image#image__homes": {
         "title": "Imagen Hogares",
         "props": {
-            "src": "https://storecomponents.vteximg.com.br/arquivos/box.png"
+            "src": "assets/img/Categorias/calentador-de-acumulacion-a-gas-con-tubo-difusor-de-30-galones.jpg"
         }
     },
     "image#image__industrial": {
         "title": "Imagen Industriales",
         "props": {
-            "src": "https://storecomponents.vteximg.com.br/arquivos/box.png"
+            "src": "assets/img/Categorias/calentador-de-acumulacion-a-gas-alta-recuperacion-de-40-galones.jpg"
         }
     },
-    "flex-layout.row#links__desktop": {}
+    "flex-layout.row#links__desktop": {
+        "title": "Imagen Industriales",
+        "children": [
+            "link#electrical",
+            "link#gas",
+            "link#homes",
+            "link#industrial"
+        ]
+    },
+    "link#electrical": {
+        "title": "Electricos",
+        "props": {
+            "href": "#",
+            "label": "Electricos",
+            "blockClass": "link__electrical"
+        }
+    },
+    "link#gas": {
+        "title": "gas",
+        "props": {
+            "href": "#",
+            "label": "gas",
+            "blockClass": "link__gas"
+        }
+    },
+    "link#homes": {
+        "title": "homes",
+        "props": {
+            "href": "#",
+            "label": "homes",
+            "blockClass": "link__homes"
+        }
+    },
+    "link#industrial": {
+        "title": "industrial",
+        "props": {
+            "href": "#",
+            "label": "industrial",
+            "blockClass": "link__industrial"
+        }
+    }
 }
