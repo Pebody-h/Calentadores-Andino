@@ -74,21 +74,22 @@
     },
     "icon#facebook": {
         "props": {
-            "id": "facebook-icon",
+            "id": "facebook",
+            "size": 14,
             "blockClass": "facebook"
         }
     },
     "icon#whatsapp": {
         "props": {
             "id": "whatsapp",
-            "size": 40,
+            "size": 14,
             "blockClass": "whatsapp"
         }
     },
     "icon#instagram": {
         "props": {
-            "id": "facebook-icon",
-            "size": 40,
+            "id": "instagram",
+            "size": 14,
             "blockClass": "instagram"
         }
     }
