@@ -10,5 +10,29 @@
     "children": [
       "flex-layout.row#home__results"
     ]
+  },
+  "responsive-layout.desktop#home__categories": {
+    "title": "Sección Categorias",
+    "children": [
+      "flex-layout.row#home__categories-desktop"
+    ]
+  },
+  "flex-layout.row#home__categories-desktop": {
+    "title": "Sección Categorias",
+    "children": [
+      "flex-layout.col#home__categories-desktop"
+    ]
+  },
+  "responsive-layout.desktop#home__experience": {
+    "title": "Sección Experiencia",
+    "children": [
+      "flex-layout.row#home__experience"
+    ]
+  },
+  "flex-layout.row#home__experience": {
+    "title": "Sección Categorias",
+    "children": [
+      "flex-layout.col#home__experience"
+    ]
   }
 }

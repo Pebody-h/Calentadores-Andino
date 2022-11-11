@@ -1,5 +1,6 @@
 :global(.vtex-store__template) {
     --font-header-color: #54595f;
+    --font-header-color--secondary: #818a91;
     --font-primary-color: #011029;
     --font-secondary-color: #FFFFFF;
     --hover-header-color: #D61D1D;
