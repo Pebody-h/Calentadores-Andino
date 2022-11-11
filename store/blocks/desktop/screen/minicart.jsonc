@@ -1,11 +1,18 @@
 {
     "minicart.v2": {
         "props": {
-            "quantityDisplay": "always"
+            "quantityDisplay": "always",
+            "MinicartIcon": "icon-cart#minicart-icon"
         },
         "children": [
             "minicart-base-content"
         ]
+    },
+    "icon-cart#minicart-icon": {
+        "props": {
+            "id": "cart-shoping",
+            "size": 26
+        }
     },
     "minicart-base-content": {
         "blocks": [

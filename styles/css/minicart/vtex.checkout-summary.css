@@ -1,0 +1,3 @@
+.summaryItemContainer:nth-child(2n) {
+    display: none;
+}
