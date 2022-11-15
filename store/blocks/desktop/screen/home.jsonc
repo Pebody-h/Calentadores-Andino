@@ -30,9 +30,24 @@
     ]
   },
   "flex-layout.row#home__experience": {
-    "title": "Sección Categorias",
+    "title": "Sección Experiencia",
     "children": [
       "flex-layout.col#home__experience"
+    ]
+  },
+  "responsive-layout.desktop#home__benefits": {
+    "title": "Sección Beneficios",
+    "children": [
+      "flex-layout.row#home__benefits"
+    ]
+  },
+  "flex-layout.row#home__benefits": {
+    "title": "Sección Beneficios",
+    "children": [
+      "flex-layout.col#benefits__Shipping",
+      "flex-layout.col#benefits__maintenance",
+      "flex-layout.col#benefits__check--mark",
+      "flex-layout.col#benefits__dollar"
     ]
   }
 }
