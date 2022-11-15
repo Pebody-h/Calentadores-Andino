@@ -49,5 +49,17 @@
       "flex-layout.col#benefits__check--mark",
       "flex-layout.col#benefits__dollar"
     ]
+  },
+  "responsive-layout.desktop#home__alliances": {
+    "title": "Sección Alianzas",
+    "children": [
+      "flex-layout.row#home__alliances"
+    ]
+  },
+  "flex-layout.row#home__alliances": {
+    "title": "Sección Alianzas",
+    "children": [
+      "flex-layout.col#home__alliances"
+    ]
   }
 }
