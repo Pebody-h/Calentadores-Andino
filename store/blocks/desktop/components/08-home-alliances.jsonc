@@ -1,0 +1,68 @@
+{
+    "flex-layout.col#home__alliances": {
+        "title": "Alianzas",
+        "children": [
+            "rich-text#alliances__title",
+            "image#alliances",
+            "flex-layout.row#brands"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "blockClass": "alliances"
+        }
+    },
+    "rich-text#alliances__title": {
+        "title": "Descripción Alianzas",
+        "props": {
+            "text": "Algunas de las empresas que confian en nuestro desempeño por la calidad de nuestros productos y servicio.",
+            "blockClass": "alliances"
+        }
+    },
+    "image#alliances": {
+        "title": "Empresas Aliadas",
+        "props": {
+            "src": "assets/img/Envios Marcas-Asociadas/empresas-aliadas.jpg",
+            "blockClass": "alliances"
+        }
+    },
+    "flex-layout.row#brands": {
+        "title": "Marcas",
+        "children": [
+            "image#andino",
+            "image#haceb",
+            "image#mabe",
+            "image#challenger"
+        ],
+        "props": {
+            "blockClass": "brands"
+        }
+    },
+    "image#andino": {
+        "title": "andino",
+        "props": {
+            "src": "assets/img/Marcas/calentadores-andino.png",
+            "blockClass": "andino"
+        }
+    },
+    "image#haceb": {
+        "title": "haceb",
+        "props": {
+            "src": "assets/img/Marcas/haceb.png",
+            "blockClass": "haceb"
+        }
+    },
+    "image#mabe": {
+        "title": "mabe",
+        "props": {
+            "src": "assets/img/Marcas/mabe.png",
+            "blockClass": "mabe"
+        }
+    },
+    "image#challenger": {
+        "title": "challenger",
+        "props": {
+            "src": "assets/img/Marcas/challenger.png",
+            "blockClass": "challenger"
+        }
+    }
+}
