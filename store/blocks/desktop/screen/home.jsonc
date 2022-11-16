@@ -61,5 +61,17 @@
     "children": [
       "flex-layout.col#home__alliances"
     ]
+  },
+  "responsive-layout.desktop#home__shipments": {
+    "title": "Sección Envíos",
+    "children": [
+      "flex-layout.row#home__shipments"
+    ]
+  },
+  "flex-layout.row#home__shipments": {
+    "title": "Sección Envíos",
+    "children": [
+      "flex-layout.col#home__shipments"
+    ]
   }
 }

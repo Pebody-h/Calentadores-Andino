@@ -9,7 +9,8 @@
       "responsive-layout.desktop#home__categories",
       "responsive-layout.desktop#home__experience",
       "responsive-layout.desktop#home__benefits",
-      "responsive-layout.desktop#home__alliances"
+      "responsive-layout.desktop#home__alliances",
+      "responsive-layout.desktop#home__shipments"
     ]
   }
 }
