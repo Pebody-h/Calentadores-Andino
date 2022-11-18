@@ -1,0 +1,37 @@
+.flexRow--footer__desktop :global(.vtex-store-components-3-x-container) {
+    margin: 0;
+    padding: 2em;
+    max-width: 100% !important;
+    background-color: #25282b;
+    border-top: 5px solid #d61d1d;
+}
+
+.flexColChild--footer__about {
+    height: max-content !important;
+}
+
+.flexCol--footer__about {
+    margin-right: 4em;
+}
+
+.flexColChild--footer__links {
+    height: max-content !important;
+    margin: .25em 0;
+}
+
+.flexRowContent--footer__images1 {
+    margin-bottom: 1.6em !important;
+}
+
+.flexRowContent--footer__images2 {
+    margin-bottom: 1.6em !important;
+}
+
+.flexRowContent--footer__images3 {
+    margin-bottom: 2em !important;
+}
+
+.flexRowContent--footer__images3 :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: 100% !important;
+    margin: 0 .5em;
+}

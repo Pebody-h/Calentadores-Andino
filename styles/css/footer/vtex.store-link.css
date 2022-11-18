@@ -1,0 +1,17 @@
+.link--link__footer {
+    text-decoration: none;
+}
+
+.label--link__footer {
+    color: #e2312f;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    border-bottom: 1px solid #e2312f;
+}
+
+.label--link__footer:hover {
+    color: var(--font-terciary-color);
+    border-bottom: none;
+    transition: .4s;
+}

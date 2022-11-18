@@ -1,0 +1,27 @@
+.wrapper--footer__tittle {
+    margin-bottom: 1.4em;
+}
+
+.paragraph--more__about {
+    margin: 0;
+}
+
+.paragraph--footer__tittle {
+    color: var(--hover-header-color);
+    font-size: 1.3333333333333rem;
+    font-weight: 400;
+}
+
+.paragraph--more__about {
+    color: #fafafa;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    vertical-align: baseline;
+}
+
+.paragraph--red__about {
+    color: var(--font-terciary-colo);
+    font-size: 1.3333333333333rem;
+    font-weight: 400;
+}
