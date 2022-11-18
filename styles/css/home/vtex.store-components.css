@@ -1,0 +1,62 @@
+/* section Alliances */
+.imageElement--alliances {
+    height: auto;
+    max-width: 100%;
+    width: 1024px;
+    margin-left: 3.6em;
+}
+
+.imageElement--andino {
+    padding: 8px;
+    width: 36%;
+    height: max-content;
+    opacity: .5;
+}
+
+.imageElement--andino:hover {
+    opacity: 1;
+    transition: .6s;
+}
+
+.imageElement--haceb {
+    padding: 8px;
+    width: 36%;
+    height: max-content;
+    opacity: .5;
+}
+
+.imageElement--haceb:hover {
+    opacity: 1;
+    transition: .6s;
+}
+
+.imageElement--mabe {
+    padding: 8px;
+    width: 36%;
+    height: max-content;
+    opacity: .5;
+}
+
+.imageElement--mabe:hover {
+    opacity: 1;
+    transition: .6s;
+}
+
+.imageElement--challenger {
+    padding: 8px;
+    width: 36%;
+    height: max-content;
+    opacity: .5;
+}
+
+.imageElement--challenger:hover {
+    opacity: 1;
+    transition: .6s;
+}
+
+
+/* section Shipments */
+.imageElement--shipments {
+    width: 1024px;
+    height: max-content;
+}

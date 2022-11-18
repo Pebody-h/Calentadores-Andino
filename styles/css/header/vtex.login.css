@@ -1,0 +1,14 @@
+.buttonLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+    width: 38px;
+    height: 38px;
+    background-color: #818a91;
+    border-radius: 50%;
+}
+
+.buttonLink:hover {
+    background-color: black;
+}
