@@ -4,13 +4,14 @@
         "children": [
             "header-spacer",
             "logo#header__logo",
-            "menu#header__menu--desktop",
+            "vtex.menu@2.x:menu#header__menu--desktop",
             "minicart.v2",
             "login",
             "header-spacer"
         ],
         "props": {
-            "sticky": true
+            "sticky": true,
+            "blockClass": "header__desktop"
         }
     }
 }

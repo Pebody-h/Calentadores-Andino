@@ -17,12 +17,16 @@
             "href": "#",
             "label": "CONOCÉ MÁS",
             "blockClass": "link__experience"
-        }
+        },
+        "children": [
+            "icon#señal"
+        ]
     },
     "rich-text#text__experience": {
         "title": "Descripción",
         "props": {
-            "text": "La excelencia nos define, y muchos años en el medio nos avalan. Nuestra misión se crea junto a nuestros clientes, llevando soluciones eficientes que se adaptan a todas sus necesidades."
+            "text": "La excelencia nos define, y muchos años en el medio nos avalan. Nuestra misión se crea junto a nuestros clientes, llevando soluciones eficientes que se adaptan a todas sus necesidades.",
+            "blockClass": "text__experience"
         }
     }
 }

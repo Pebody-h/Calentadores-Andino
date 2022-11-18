@@ -1,7 +1,12 @@
+.childrenContainer--link__phone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .link--link__phone {
     margin: 0;
     padding: 0;
-    width: max-content !important;
     color: var(--font-secondary-color);
     font-size: 12px;
     text-decoration: none;

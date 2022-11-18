@@ -13,7 +13,7 @@
     opacity: .2;
 }
 
-.paginationDot--home__slider::selection {
+.paginationDot--home__slider--isActive {
     cursor: pointer;
     background-color: #000 !important;
     opacity: 1 !important;

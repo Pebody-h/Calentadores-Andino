@@ -1,9 +1,12 @@
 {
-    "submenu.accordion#department__shop": {
+    "vtex.menu@2.x:submenu#department__shop": {
         "title": "Departamento Tienda",
         "children": [
             "menu#department__shop"
-        ]
+        ],
+        "props": {
+            "blockClass": "submenudepartment__shop"
+        }
     },
     "menu#department__shop": {
         "title": "Categorias",
@@ -19,7 +22,8 @@
             "menu-item#category__challenger"
         ],
         "props": {
-            "orientation": "vertical"
+            "orientation": "vertical",
+            "blockClass": "department__shop"
         }
     },
     "menu-item#category__electric": {
@@ -32,7 +36,8 @@
                 "noFollow": false,
                 "tagTitle": "Calentadores Eléctricos",
                 "text": "Calentadores Eléctricos"
-            }
+            },
+            "blockClass": "category"
         }
     },
     "menu-item#category__gas": {
@@ -45,7 +50,8 @@
                 "noFollow": false,
                 "tagTitle": "Calentadores a Gas",
                 "text": "Calentadores a Gas"
-            }
+            },
+            "blockClass": "category"
         }
     },
     "menu-item#category__home": {
@@ -58,7 +64,8 @@
                 "noFollow": false,
                 "tagTitle": "Ideal para el Hogar",
                 "text": "Ideal para el Hogar"
-            }
+            },
+            "blockClass": "category"
         }
     },
     "menu-item#category__industry": {
@@ -71,7 +78,8 @@
                 "noFollow": false,
                 "tagTitle": "Ideal para la Industria",
                 "text": "Ideal para la Industria"
-            }
+            },
+            "blockClass": "category"
         }
     },
     "menu-item#category__step": {
@@ -84,10 +92,16 @@
                 "noFollow": false,
                 "tagTitle": "Calentadores de Pasos",
                 "text": "Calentadores de Paso"
-            }
+            },
+            "iconProps": {
+                "id": "play",
+                "size": 7
+            },
+            "iconPosition": "right",
+            "blockClass": "category"
         },
         "blocks": [
-            "submenu.accordion#category__step"
+            "vtex.menu@2.x:submenu#category__step"
         ]
     },
     "menu-item#category__accumulation": {
@@ -100,10 +114,16 @@
                 "noFollow": false,
                 "tagTitle": "Calentadores de Acumulación",
                 "text": "Calentadores de Acumulación"
-            }
+            },
+            "iconProps": {
+                "id": "play",
+                "size": 7
+            },
+            "iconPosition": "right",
+            "blockClass": "category"
         },
         "blocks": [
-            "submenu.accordion#category__accumulation"
+            "vtex.menu@2.x:submenu#category__accumulation"
         ]
     },
     "menu-item#category__andino": {
@@ -116,7 +136,8 @@
                 "noFollow": false,
                 "tagTitle": "Calentadores Andino",
                 "text": "Calentadores Andino"
-            }
+            },
+            "blockClass": "category"
         }
     },
     "menu-item#category__haceb": {
@@ -129,7 +150,8 @@
                 "noFollow": false,
                 "tagTitle": "Calentadores Haceb",
                 "text": "Calentadores Haceb"
-            }
+            },
+            "blockClass": "category"
         }
     },
     "menu-item#category__challenger": {
@@ -142,7 +164,8 @@
                 "noFollow": false,
                 "tagTitle": "Calentadores Challenger",
                 "text": "Calentadores Challenger"
-            }
+            },
+            "blockClass": "category"
         }
     }
 }

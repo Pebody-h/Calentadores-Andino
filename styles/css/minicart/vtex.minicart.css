@@ -1,0 +1,14 @@
+.minicartQuantityBadge {
+    width: .7rem;
+    height: .7rem;
+    background-color: #d9534f;
+}
+
+.minicartQuantityBadgeDefault {
+    top: -0.3rem !important;
+    right: -0.4rem !important;
+}
+
+.minicartIconContainer:hover {
+    color: black !important;
+}

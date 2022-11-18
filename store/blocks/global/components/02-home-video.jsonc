@@ -36,19 +36,22 @@
     "rich-text#text__1": {
         "title": "Texto 1",
         "props": {
-            "text": "CALENTADORES ANDINO"
+            "text": "CALENTADORES ANDINO",
+            "blockClass": "text__1"
         }
     },
     "rich-text#text__2": {
         "title": "Texto 2",
         "props": {
-            "text": "Venta, reparación y mantenimiento de calentadores"
+            "text": "Venta, reparación y mantenimiento de calentadores",
+            "blockClass": "text__2"
         }
     },
     "rich-text#text__3": {
         "title": "Texto 3",
         "props": {
-            "text": "3219369771"
+            "text": "3219369771",
+            "blockClass": "text__3"
         }
     }
 }

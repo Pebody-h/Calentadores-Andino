@@ -9,7 +9,8 @@
             "rich-text#shipping__three"
         ],
         "props": {
-            "horizontalAlign": "center"
+            "horizontalAlign": "center",
+            "blockClass": "benefits__Shipping"
         }
     },
     "icon#shipping": {
@@ -23,7 +24,7 @@
         "title": "Titulo Envíos",
         "props": {
             "text": "Envíos",
-            "blockClass": "envio"
+            "blockClass": "title__envio"
         }
     },
     "rich-text#shipping__one": {
@@ -57,7 +58,8 @@
             "rich-text#maintenance__three"
         ],
         "props": {
-            "horizontalAlign": "center"
+            "horizontalAlign": "center",
+            "blockClass": "benefits__Shipping"
         }
     },
     "icon#maintenance": {
@@ -71,7 +73,7 @@
         "title": "Titulo mantenimiento",
         "props": {
             "text": "Servicio Técnico Calificado",
-            "blockClass": "maintenance"
+            "blockClass": "title__maintenance"
         }
     },
     "rich-text#maintenance__one": {
@@ -103,7 +105,8 @@
             "rich-text#check--mark"
         ],
         "props": {
-            "horizontalAlign": "center"
+            "horizontalAlign": "center",
+            "blockClass": "benefits__Shipping"
         }
     },
     "icon#check--mark": {
@@ -117,7 +120,7 @@
         "title": "Titulo Garantía",
         "props": {
             "text": "Garantía",
-            "blockClass": "check--mark"
+            "blockClass": "title__check--mark"
         }
     },
     "rich-text#check--mark": {
@@ -135,7 +138,8 @@
             "rich-text#dollar"
         ],
         "props": {
-            "horizontalAlign": "center"
+            "horizontalAlign": "center",
+            "blockClass": "benefits__dollar"
         }
     },
     "icon#dollar": {
@@ -149,7 +153,7 @@
         "title": "Titulo Garantía",
         "props": {
             "text": "Pagos seguros",
-            "blockClass": "dollar"
+            "blockClass": "title__dollar"
         }
     },
     "rich-text#dollar": {
