@@ -1,9 +1,13 @@
 {
-    "submenu.accordion#department__acount": {
+    "vtex.menu@2.x:submenu#department__acount": {
         "title": "Departamento Mi Cuenta",
         "children": [
             "menu#department__acount"
-        ]
+        ],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "department__acount"
+        }
     },
     "menu#department__acount": {
         "title": "Categorias",
@@ -12,7 +16,8 @@
             "menu-item#category__trolley"
         ],
         "props": {
-            "orientation": "vertical"
+            "orientation": "vertical",
+            "blockClass": "department__acount"
         }
     },
     "menu-item#category__purchase": {
@@ -25,7 +30,8 @@
                 "noFollow": false,
                 "tagTitle": "Finalizar Compra",
                 "text": "Finalizar Compra"
-            }
+            },
+            "blockClass": "category"
         }
     },
     "menu-item#category__trolley": {
@@ -38,7 +44,8 @@
                 "noFollow": false,
                 "tagTitle": "Carrito",
                 "text": "Carrito"
-            }
+            },
+            "blockClass": "category"
         }
     }
 }

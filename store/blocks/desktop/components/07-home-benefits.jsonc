@@ -1,0 +1,166 @@
+{
+    "flex-layout.col#benefits__Shipping": {
+        "title": "Envíos",
+        "children": [
+            "icon#shipping",
+            "rich-text#shipping__title",
+            "rich-text#shipping__one",
+            "rich-text#shipping__two",
+            "rich-text#shipping__three"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "blockClass": "benefits__Shipping"
+        }
+    },
+    "icon#shipping": {
+        "props": {
+            "id": "envio",
+            "size": 42,
+            "blockClass": "envio"
+        }
+    },
+    "rich-text#shipping__title": {
+        "title": "Titulo Envíos",
+        "props": {
+            "text": "Envíos",
+            "blockClass": "title__envio"
+        }
+    },
+    "rich-text#shipping__one": {
+        "title": "Descripcción Envíos 1",
+        "props": {
+            "text": "A Nivel Nacional.",
+            "blockClass": "envio"
+        }
+    },
+    "rich-text#shipping__two": {
+        "title": "Descripcción Envíos 2",
+        "props": {
+            "text": "A la puerta de su casa",
+            "blockClass": "envio"
+        }
+    },
+    "rich-text#shipping__three": {
+        "title": "Descripcción Envíos 3",
+        "props": {
+            "text": "Gratis en bogotá",
+            "blockClass": "envio"
+        }
+    },
+    "flex-layout.col#benefits__maintenance": {
+        "title": "Mantenimientos",
+        "children": [
+            "icon#maintenance",
+            "rich-text#maintenance__title",
+            "rich-text#maintenance__one",
+            "rich-text#maintenance__two",
+            "rich-text#maintenance__three"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "blockClass": "benefits__Shipping"
+        }
+    },
+    "icon#maintenance": {
+        "props": {
+            "id": "mantenimiento",
+            "size": 34,
+            "blockClass": "maintenance"
+        }
+    },
+    "rich-text#maintenance__title": {
+        "title": "Titulo mantenimiento",
+        "props": {
+            "text": "Servicio Técnico Calificado",
+            "blockClass": "title__maintenance"
+        }
+    },
+    "rich-text#maintenance__one": {
+        "title": "Descripcción mantenimiento 1",
+        "props": {
+            "text": "Mantenimiento",
+            "blockClass": "maintenance"
+        }
+    },
+    "rich-text#maintenance__two": {
+        "title": "Descripcción mantenimiento 2",
+        "props": {
+            "text": "Reparación",
+            "blockClass": "maintenance"
+        }
+    },
+    "rich-text#maintenance__three": {
+        "title": "Descripcción mantenimiento 3",
+        "props": {
+            "text": "Instalación",
+            "blockClass": "maintenance"
+        }
+    },
+    "flex-layout.col#benefits__check--mark": {
+        "title": "Garantía",
+        "children": [
+            "icon#check--mark",
+            "rich-text#check--mark__title",
+            "rich-text#check--mark"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "blockClass": "benefits__Shipping"
+        }
+    },
+    "icon#check--mark": {
+        "props": {
+            "id": "chulito",
+            "size": 34,
+            "blockClass": "check--mark"
+        }
+    },
+    "rich-text#check--mark__title": {
+        "title": "Titulo Garantía",
+        "props": {
+            "text": "Garantía",
+            "blockClass": "title__check--mark"
+        }
+    },
+    "rich-text#check--mark": {
+        "title": "Descripcción Garantía",
+        "props": {
+            "text": "La mejor garantía con el respaldo de cada fabricante",
+            "blockClass": "check--mark"
+        }
+    },
+    "flex-layout.col#benefits__dollar": {
+        "title": "Pagos",
+        "children": [
+            "icon#dollar",
+            "rich-text#dollar__title",
+            "rich-text#dollar"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "blockClass": "benefits__dollar"
+        }
+    },
+    "icon#dollar": {
+        "props": {
+            "id": "dolar",
+            "size": 40,
+            "blockClass": "dollar"
+        }
+    },
+    "rich-text#dollar__title": {
+        "title": "Titulo Garantía",
+        "props": {
+            "text": "Pagos seguros",
+            "blockClass": "title__dollar"
+        }
+    },
+    "rich-text#dollar": {
+        "title": "Descripcción Garantía",
+        "props": {
+            "text": "Tenemos diferentes opciones para que puedas comprar fácil y seguro",
+            "blockClass": "dollar"
+        }
+    }
+}

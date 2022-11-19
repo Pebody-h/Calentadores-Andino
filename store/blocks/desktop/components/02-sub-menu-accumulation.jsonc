@@ -1,9 +1,12 @@
 {
-    "submenu.accordion#category__accumulation": {
+    "vtex.menu@2.x:submenu#category__accumulation": {
         "title": "Sub-Categorias Acumulación ",
         "children": [
             "menu#category__accumulation"
-        ]
+        ],
+        "props": {
+            "blockClass": "category__accumulation"
+        }
     },
     "menu#category__accumulation": {
         "title": "Sub-Categorias",
@@ -15,7 +18,8 @@
             "menu-item#sub__category-high"
         ],
         "props": {
-            "orientation": "vertical"
+            "orientation": "vertical",
+            "blockClass": "category__accumulation"
         }
     },
     "menu-item#sub__category-galvanized": {
@@ -28,7 +32,8 @@
                 "noFollow": false,
                 "tagTitle": "Acero Galvanizado",
                 "text": "Acero Galvanizado"
-            }
+            },
+            "blockClass": "category"
         }
     },
     "menu-item#sub__category-stainless": {
@@ -41,7 +46,8 @@
                 "noFollow": false,
                 "tagTitle": "Acero Inoxidable",
                 "text": "Acero Inoxidable"
-            }
+            },
+            "blockClass": "category"
         }
     },
     "menu-item#sub__category-porcelainized": {
@@ -54,7 +60,8 @@
                 "noFollow": false,
                 "tagTitle": "Porcelanizado",
                 "text": "Porcelanizado"
-            }
+            },
+            "blockClass": "category"
         }
     },
     "menu-item#sub__category-fast": {
@@ -67,7 +74,8 @@
                 "noFollow": false,
                 "tagTitle": "Rapida Recuperación",
                 "text": "Rapida Recuperación"
-            }
+            },
+            "blockClass": "category"
         }
     },
     "menu-item#sub__category-high": {
@@ -80,7 +88,8 @@
                 "noFollow": false,
                 "tagTitle": "Alta Recuperación",
                 "text": "Alta Recuperación"
-            }
+            },
+            "blockClass": "category"
         }
     }
 }

@@ -5,7 +5,6 @@
             "flex-layout.row#layout__phone",
             "flex-layout.row#layout__email",
             "flex-layout.row#layout__working--hours",
-            "header-spacer",
             "flex-layout.row#layout__networks"
         ],
         "props": {
@@ -25,16 +24,41 @@
         "title": "Numero",
         "props": {
             "href": "tel:+573219369771",
-            "label": "+573219369771",
             "blockClass": "link__phone"
+        },
+        "children": [
+            "icon#phone",
+            "rich-text#phone"
+        ]
+    },
+    "icon#phone": {
+        "props": {
+            "id": "telefono",
+            "size": 16,
+            "blockClass": "phone"
+        }
+    },
+    "rich-text#phone": {
+        "title": "Telefono",
+        "props": {
+            "text": "+573219369771",
+            "blockClass": "phone"
         }
     },
     "flex-layout.row#layout__email": {
         "title": "Correo electronico",
         "children": [
+            "icon#email",
             "rich-text#email"
         ],
         "props": {
+            "blockClass": "email"
+        }
+    },
+    "icon#email": {
+        "props": {
+            "id": "email",
+            "size": 16,
             "blockClass": "email"
         }
     },
@@ -48,10 +72,18 @@
     "flex-layout.row#layout__working--hours": {
         "title": "Horario de atención",
         "children": [
+            "icon#working__hours",
             "rich-text#working__hours"
         ],
         "props": {
             "blockClass": "working__hours"
+        }
+    },
+    "icon#working__hours": {
+        "props": {
+            "id": "reloj",
+            "size": 16,
+            "blockClass": "reloj"
         }
     },
     "rich-text#working__hours": {
@@ -64,32 +96,62 @@
     "flex-layout.row#layout__networks": {
         "title": "Redes sociales",
         "children": [
-            "icon#facebook",
-            "icon#whatsapp",
-            "icon#instagram"
+            "link#facebook",
+            "link#whatsapp",
+            "link#instagram"
         ],
         "props": {
             "blockClass": "social__networks"
         }
     },
+    "link#facebook": {
+        "title": "facebook",
+        "props": {
+            "href": "https://www.facebook.com/calentadores.andino",
+            "blockClass": "facebook"
+        },
+        "children": [
+            "icon#facebook"
+        ]
+    },
     "icon#facebook": {
         "props": {
             "id": "facebook",
-            "size": 14,
+            "size": 16,
             "blockClass": "facebook"
         }
+    },
+    "link#whatsapp": {
+        "title": "whatsapp",
+        "props": {
+            "href": "https://api.whatsapp.com/message/2WNIOVL2HD6BH1?autoload=1&app_absent=0",
+            "blockClass": "whatsapp"
+        },
+        "children": [
+            "icon#whatsapp"
+        ]
     },
     "icon#whatsapp": {
         "props": {
             "id": "whatsapp",
-            "size": 14,
+            "size": 16,
             "blockClass": "whatsapp"
         }
+    },
+    "link#instagram": {
+        "title": "instagram",
+        "props": {
+            "href": "https://www.instagram.com/andinocalentadores/?igshid=YmMyMTA2M2Y%3D",
+            "blockClass": "instagram"
+        },
+        "children": [
+            "icon#instagram"
+        ]
     },
     "icon#instagram": {
         "props": {
             "id": "instagram",
-            "size": 14,
+            "size": 16,
             "blockClass": "instagram"
         }
     }

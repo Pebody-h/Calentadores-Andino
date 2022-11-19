@@ -1,0 +1,27 @@
+{
+    "flex-layout.col#home__shipments": {
+        "title": "Enviós",
+        "children": [
+            "rich-text#shipments__title",
+            "image#shipments"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "blockClass": "shipments"
+        }
+    },
+    "rich-text#shipments__title": {
+        "title": "Descripción Envíos",
+        "props": {
+            "text": "Envios de la mano con las mejores empresas del país.",
+            "blockClass": "shipments"
+        }
+    },
+    "image#shipments": {
+        "title": "Empresas Envíos",
+        "props": {
+            "src": "assets/img/Envios Marcas-Asociadas/logos-envios-2.jpg",
+            "blockClass": "shipments"
+        }
+    }
+}
