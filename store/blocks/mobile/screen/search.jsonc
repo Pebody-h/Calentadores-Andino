@@ -1,0 +1,7 @@
+{
+    "search-result-layout.mobile#global": {
+        "children": [
+            "search-content#results__content--products"
+        ]
+    }
+}

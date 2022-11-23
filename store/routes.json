@@ -1,0 +1,10 @@
+{
+    "store.custom#about-us": {
+        "title": "Sobre Nosotros",
+        "path": "/sobre-nosotros"
+    },
+    "store.custom#service": {
+        "title": "Servicio Técnico",
+        "path": "/servicio-tecnico"
+    }
+}
