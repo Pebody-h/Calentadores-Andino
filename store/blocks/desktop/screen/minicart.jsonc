@@ -1,44 +1,10 @@
 {
-    "minicart.v2": {
-        "props": {
-            "quantityDisplay": "always",
-            "MinicartIcon": "icon-cart#minicart-icon"
-        },
+    "product-list-content-desktop": {
         "children": [
-            "minicart-base-content"
-        ]
-    },
-    "icon-cart#minicart-icon": {
-        "props": {
-            "id": "cart-shoping",
-            "size": 26
-        }
-    },
-    "minicart-base-content": {
-        "blocks": [
-            "minicart-empty-state"
+            "flex-layout.row#minicart__row--desktop"
         ],
-        "children": [
-            "minicart-product-list",
-            "flex-layout.row#minicart__footer"
-        ]
-    },
-    "minicart-empty-state": {
-        "children": [
-            "rich-text#text__empty"
-        ]
-    },
-    "rich-text#text__empty": {
-        "title": "Texto Carrito",
         "props": {
-            "text": "No products in the cart.",
-            "textPosition": "CENTER"
+            "blockClass": "minicart__desktop"
         }
-    },
-    "flex-layout.row#minicart__footer": {
-        "children": [
-            "minicart-summary",
-            "minicart-checkout-button"
-        ]
     }
 }
