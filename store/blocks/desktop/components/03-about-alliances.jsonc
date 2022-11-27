@@ -1,0 +1,22 @@
+{
+    "flex-layout.row#about__alliances": {
+        "title": "Sección Alianzas",
+        "children": [
+            "flex-layout.col#about__alliances"
+        ],
+        "props": {
+            "blockClass": "home__alliances"
+        }
+    },
+    "flex-layout.col#about__alliances": {
+        "title": "Alianzas",
+        "children": [
+            "rich-text#alliances__title",
+            "image#alliances"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "blockClass": "alliances"
+        }
+    }
+}
