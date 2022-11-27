@@ -1,0 +1,108 @@
+{
+    "flex-layout.row#mission-desktop": {
+        "title": "Misión",
+        "children": [
+            "flex-layout.col#mission-desktop"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "blockClass": "mission"
+        }
+    },
+    "flex-layout.col#mission-desktop": {
+        "title": "Misión",
+        "children": [
+            "flex-layout.row#image__mission",
+            "flex-layout.row#mission"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "blockClass": "mission"
+        }
+    },
+    "flex-layout.row#image__mission": {
+        "title": "Imagen Misión",
+        "children": [
+            "image#image__mission"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "blockClass": "image__mission"
+        }
+    },
+    "image#image__mission": {
+        "title": "Imagen Sobre Nosotros",
+        "props": {
+            "src": "assets/img/Sobre-Nosotros/banner-quienes-somos.jpg"
+        }
+    },
+    "flex-layout.row#mission": {
+        "title": "Información Misión",
+        "children": [
+            "flex-layout.col#img__mission",
+            "flex-layout.col#text-mission"
+        ],
+        "props": {
+            "blockClass": "mission"
+        }
+    },
+    "flex-layout.col#img__mission": {
+        "title": "Imagen Misión",
+        "children": [
+            "image#img__mission"
+        ],
+        "props": {
+            "blockClass": "image__mission"
+        }
+    },
+    "image#img__mission": {
+        "title": "Imagen Misión",
+        "props": {
+            "src": "assets/img/Sobre-Nosotros/nuestra-mision.jpg"
+        }
+    },
+    "flex-layout.col#text-mission": {
+        "title": "Información Misión",
+        "children": [
+            "rich-text#title__mission",
+            "rich-text#info__mission",
+            "link#catalogue"
+        ],
+        "props": {
+            "blockClass": "image__mission"
+        }
+    },
+    "rich-text#title__mission": {
+        "title": "Titulo",
+        "props": {
+            "text": "Misión",
+            "blockClass": "title__mission"
+        }
+    },
+    "rich-text#info__mission": {
+        "title": "Descripción",
+        "props": {
+            "text": "Calentadores andino surgio como solución a una problematica de suma importancia, proveer de agua caliente a los hogares y negocios de los pobladores Colombianos. Hace años comenzamos como una empresa familiar que crecio de la mano de sus clientes, sin los cuales, a día de hoy no hubiesemos logrado llegar tan lejos. Nuestro trabajo trasciende la excelencia de nuestros productos, cuando una persona confia en nosotros no solo se esta llevando a su hogar lo mas alto de calidad, si no que tambien, se lleva nuestras palabras, promesas y sueños, sueños que diaramente nos impulsan a superarnos para seguir brindando todas las soluciones que usted necesita, es por esta razon, que desde Calentadores Andino comprendemos y valoramos la importancia de aquellos que nos permiten formar parte de sus familias. De parte de todo el equipo queremos agradecerle por permitirnos crecer mas alla de lo que algun dia soñamos y lo invitamos a recorrer nuestro extenso catalogo de productos, para que pueda elegir el que mas le convenga. Ante cualquier duda o inquietud no dude en contactarnos.",
+            "blockClass": "info__mission"
+        }
+    },
+    "link#catalogue": {
+        "title": "Electricos",
+        "props": {
+            "href": "#",
+            "label": "Ver Catalogo",
+            "displayMode": "button",
+            "blockClass": "catalogue"
+        },
+        "children": [
+            "icon#righ-mission"
+        ]
+    },
+    "icon#righ-mission": {
+        "props": {
+            "id": "righ-mission",
+            "size": 15,
+            "blockClass": "righ-mission"
+        }
+    }
+}

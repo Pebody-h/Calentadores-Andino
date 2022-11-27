@@ -1,0 +1,95 @@
+{
+    "flex-layout.row#equipment-desktop": {
+        "title": "Equipo Trabajo",
+        "children": [
+            "flex-layout.col#equipment-desktop"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "blockClass": "mission"
+        }
+    },
+    "flex-layout.col#equipment-desktop": {
+        "title": "Misión",
+        "children": [
+            "flex-layout.row#tittle__equipment",
+            "flex-layout.row#equipment"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "blockClass": "equipment-desktop"
+        }
+    },
+    "flex-layout.row#tittle__equipment": {
+        "title": "Titulo Equipo",
+        "children": [
+            "rich-text#title__equipment"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "blockClass": "tittle__equipment"
+        }
+    },
+    "rich-text#title__equipment": {
+        "title": "Titulo",
+        "props": {
+            "text": "Nuestro equipo",
+            "blockClass": "title__equipment"
+        }
+    },
+    "flex-layout.row#equipment": {
+        "title": "Equipo",
+        "children": [
+            "flex-layout.col#equipment-1",
+            "flex-layout.col#equipment-2"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "blockClass": "equipment"
+        }
+    },
+    "flex-layout.col#equipment-1": {
+        "title": "Equipo 1",
+        "children": [
+            "image#img__equipment-1",
+            "image#img__equipment-2"
+        ],
+        "props": {
+            "blockClass": "equipment__image"
+        }
+    },
+    "image#img__equipment-1": {
+        "title": "Imagen Fredy 1",
+        "props": {
+            "src": "assets/img/Sobre-Nosotros/Fredy-Garcia-equipo-trabajo-trabajando.jpg"
+        }
+    },
+    "image#img__equipment-2": {
+        "title": "Imagen Fredy ",
+        "props": {
+            "src": "assets/img/Sobre-Nosotros/Fredy-Garcia-equipo-trabajo.jpg"
+        }
+    },
+    "flex-layout.col#equipment-2": {
+        "title": "Equipo 2",
+        "children": [
+            "image#img__equipment-3",
+            "image#img__equipment-4"
+        ],
+        "props": {
+            "blockClass": "equipment__image"
+        }
+    },
+    "image#img__equipment-3": {
+        "title": "Imagen smid 1",
+        "props": {
+            "src": "assets/img/Sobre-Nosotros/Ramon-Lopez-equipo-trabajo.jpg"
+        }
+    },
+    "image#img__equipment-4": {
+        "title": "Imagen smid 2",
+        "props": {
+            "src": "assets/img/Sobre-Nosotros/Ramon-Lopez-equipo-trabajo-trabajando.jpg"
+        }
+    }
+}

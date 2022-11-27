@@ -1,0 +1,29 @@
+{
+    "flex-layout.row#about__shipments": {
+        "title": "Sección Envíos",
+        "children": [
+            "flex-layout.col#about__shipments"
+        ],
+        "props": {
+            "blockClass": "home__shipments"
+        }
+    },
+    "flex-layout.col#about__shipments": {
+        "title": "Enviós",
+        "children": [
+            "rich-text#about__shipments-title",
+            "image#shipments"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "blockClass": "shipments"
+        }
+    },
+    "rich-text#about__shipments-title": {
+        "title": "Descripción Envíos",
+        "props": {
+            "text": "Proporcionamos los envios mas rapidos y seguros del país, a mano de las empresas mejor posicionadas.",
+            "blockClass": "about__shipments-title"
+        }
+    }
+}
