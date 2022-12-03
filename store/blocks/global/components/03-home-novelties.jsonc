@@ -1,5 +1,48 @@
 {
-    "flex-layout.row#home__section--novelties": {},
+    "flex-layout.row#home__section--novelties": {
+        "title": "Novedades",
+        "children": [
+            "flex-layout.col#novelties__tittle"
+        ],
+        "props": {
+            "blockClass": "home__section--novelties"
+        }
+    },
+    "flex-layout.col#novelties__tittle": {
+        "title": "Novedades",
+        "children": [
+            "flex-layout.row#novelties__tittle",
+            "search-result-layout.customQuery#home__showcase--novelties"
+        ],
+        "props": {
+            "blockClass": "novelties__tittle"
+        }
+    },
+    "flex-layout.row#novelties__tittle": {
+        "title": "Titulo",
+        "children": [
+            "rich-text#novelties__tittle",
+            "link#novelties"
+        ],
+        "props": {
+            "blockClass": "novelties__tittle"
+        }
+    },
+    "rich-text#novelties__tittle": {
+        "title": "Titulo",
+        "props": {
+            "text": "Novedades",
+            "blockClass": "novelties__tittle"
+        }
+    },
+    "link#novelties": {
+        "title": "Novedades",
+        "props": {
+            "href": "#",
+            "label": "VER TODO",
+            "blockClass": "link__novelties"
+        }
+    },
     "search-result-layout.customQuery#home__showcase--novelties": {
         "props": {
             "querySchema": {
@@ -9,7 +52,6 @@
         },
         "blocks": [
             "search-result-layout.desktop#home__search--desktop",
-            "search-result-layout.mobile#home__search--mobile",
             "search-not-found-layout"
         ]
     }

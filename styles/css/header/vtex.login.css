@@ -12,3 +12,11 @@
 .buttonLink:hover {
     background-color: black;
 }
+
+.container {
+    width: 40px;
+    background-color: #818a91;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}

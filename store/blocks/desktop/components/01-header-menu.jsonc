@@ -36,7 +36,7 @@
             "type": "custom",
             "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/account",
                 "noFollow": false,
                 "tagTitle": "Mi Cuenta",
                 "text": "MI CUENTA"

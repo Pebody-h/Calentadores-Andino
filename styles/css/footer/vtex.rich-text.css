@@ -25,3 +25,31 @@
     font-size: 1.3333333333333rem;
     font-weight: 400;
 }
+
+@media screen and (min-width: 500px) and (max-width: 900px) {
+    .paragraph--more__about {
+        font-size: 88%;
+    }
+
+    .paragraph--red__about {
+        font-size: 88%;
+    }
+
+    .container--footer__tittle {
+        height: max-content;
+    }
+
+    .wrapper--footer__tittle {
+        margin: 0;
+        padding: 0;
+    }
+
+    .paragraph--footer__tittle {
+        margin: 0;
+        padding: 0;
+    }
+
+    .paragraph--footer__tittle {
+        margin-bottom: 1em;
+    }
+}

@@ -54,6 +54,12 @@
     transition: .6s;
 }
 
+@media screen and (min-width: 500px) and (max-width: 900px) {
+    .imageElement--alliances {
+        margin-left: 0;
+    }
+}
+
 
 /* section Shipments */
 .imageElement--shipments {

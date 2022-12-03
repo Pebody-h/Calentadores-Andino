@@ -1,0 +1,16 @@
+.image {
+    width: 14em;
+    height: 14em;
+    margin-bottom: .8em;
+}
+
+.nameContainer {
+    height: 2.4em;
+    padding: .2em;
+}
+
+.brandName {
+    font-size: 1em;
+    font-weight: 600;
+    color: #000000;
+}
