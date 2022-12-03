@@ -1,0 +1,24 @@
+{
+    "slider-layout#home__slider--tablet": {
+        "title": "Slider Home",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "mobile": 1
+            },
+            "infinite": true,
+            "blockClass": "home__slider--tablet",
+            "autplay": {
+                "timeout": 4000,
+                "stopOnHover": false
+            }
+        },
+        "children": [
+            "image#home__slider--one",
+            "image#home__slider--two",
+            "image#home__slider--three",
+            "image#home__slider--four"
+        ]
+    }
+}

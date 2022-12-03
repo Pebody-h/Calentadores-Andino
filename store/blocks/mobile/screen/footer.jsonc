@@ -1,8 +1,18 @@
 {
     "footer-layout.mobile": {
         "children": [
-            "flex-layout.row#footer__mobile"
+            "responsive-layout.tablet#footer",
+            "responsive-layout.phone#footer"
         ]
+    },
+    "responsive-layout.phone#footer": {
+        "title": "Footer",
+        "children": [
+            "flex-layout.row#footer__mobile"
+        ],
+        "props": {
+            "blockClass": "footer__mobile"
+        }
     },
     "flex-layout.row#footer__mobile": {}
 }

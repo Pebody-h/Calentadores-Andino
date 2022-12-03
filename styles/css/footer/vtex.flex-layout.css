@@ -35,3 +35,25 @@
     width: 100% !important;
     margin: 0 .5em;
 }
+
+@media screen and (min-width: 500px) and (max-width: 900px) {
+    .flexRow--footer__desktop :global(.vtex-store-components-3-x-container) {
+        height: 52em;
+    }
+
+    .flexColChild--footer__payments {
+        height: max-content !important;
+    }
+
+    .flexRowContent--footer__images1 {
+        margin: 0;
+    }
+
+    .flexRowContent--footer__images2 {
+        margin: 0;
+    }
+
+    .flexRowContent--footer__images3 {
+        margin: 0;
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "flex-layout.row#home__section--visited": {
+        "title": "Lo Mas Visitado",
+        "children": [
+            "flex-layout.col#visited__tittle"
+        ],
+        "props": {
+            "blockClass": "home__section--novelties"
+        }
+    },
+    "flex-layout.col#visited__tittle": {
+        "title": "Lo Mas Visitado",
+        "children": [
+            "flex-layout.row#visited__tittle",
+            "search-result-layout.customQuery#home__showcase--novelties"
+        ],
+        "props": {
+            "blockClass": "novelties__tittle"
+        }
+    },
+    "flex-layout.row#visited__tittle": {
+        "title": "Titulo",
+        "children": [
+            "rich-text#visited__tittle"
+        ],
+        "props": {
+            "blockClass": "visited__tittle"
+        }
+    },
+    "rich-text#visited__tittle": {
+        "title": "Titulo",
+        "props": {
+            "text": "Lo Mas Visitado",
+            "blockClass": "visited__tittle"
+        }
+    }
+}

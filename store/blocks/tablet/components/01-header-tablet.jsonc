@@ -1,8 +1,25 @@
 {
-    "header-row#header__tablet": {
+    "header-row#header__tablet--1": {
         "title": "barra navegación tablet",
         "children": [
-            "header-row#header__desktop"
-        ]
+            "header-row#header__tablet"
+        ],
+        "props": {
+            "sticky": true,
+            "blockClass": "header__tablet--1"
+        }
+    },
+    "header-row#header__tablet": {
+        "title": "Barra navegación",
+        "children": [
+            "logo#header__logo",
+            "vtex.menu@2.x:menu#header__menu--desktop",
+            "minicart.v2",
+            "login"
+        ],
+        "props": {
+            "sticky": true,
+            "blockClass": "header__tablet"
+        }
     }
 }

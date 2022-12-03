@@ -1,9 +1,1 @@
-{
-    "search-result-layout.mobile#home__search--mobile": {
-        "children": [
-            "responsive-layout.tablet#search__novelties",
-            "responsive-layout.phone#search__novelties"
-        ]
-    },
-    "responsive-layout.phone#search__novelties": {}
-}
+{}

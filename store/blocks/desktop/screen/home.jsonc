@@ -6,6 +6,12 @@
       "slider-layout#home__slider"
     ]
   },
+  "responsive-layout.desktop#video": {
+    "title": "Video",
+    "children": [
+      "flex-layout.row#home__video"
+    ]
+  },
   "search-result-layout.desktop#home__search--desktop": {
     "children": [
       "flex-layout.row#home__results"

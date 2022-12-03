@@ -2,7 +2,10 @@
   "responsive-layout.tablet#menu": {
     "title": "tablet",
     "children": [
-      "header-row#header__tablet"
-    ]
+      "header-row#header__tablet--1"
+    ],
+    "props": {
+      "blockClass": "header__tablet"
+    }
   }
 }

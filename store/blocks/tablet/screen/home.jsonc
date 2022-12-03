@@ -2,8 +2,61 @@
   "responsive-layout.tablet#information": {
     "title": "Tablet",
     "children": [
-      "slider-layout#home__slider"
+      "slider-layout#home__slider--tablet"
+    ],
+    "props": {
+      "blockClass": "information__tablet"
+    }
+  },
+  "responsive-layout.tablet#video": {
+    "title": "Video",
+    "children": [
+      "flex-layout.row#home__video"
+    ],
+    "props": {
+      "blockClass": "video__tablet"
+    }
+  },
+  "responsive-layout.tablet#home__categories": {
+    "title": "Sección Categorias",
+    "children": [
+      "flex-layout.row#home__categories-desktop"
     ]
   },
-  "responsive-layout.tablet#search__novelties": {}
+  "responsive-layout.tablet#home__experience": {
+    "title": "Sección Experiencia",
+    "children": [
+      "flex-layout.row#home__experience"
+    ],
+    "props": {
+      "blockClass": "home__experience"
+    }
+  },
+  "responsive-layout.tablet#home__benefits": {
+    "title": "Sección Beneficios",
+    "children": [
+      "flex-layout.row#home__benefits"
+    ],
+    "props": {
+      "blockClass": "home__benefits"
+    }
+  },
+  "responsive-layout.tablet#home__alliances": {
+    "title": "Sección Alianzas",
+    "children": [
+      "flex-layout.row#home__alliances"
+    ],
+    "props": {
+      "blockClass": "home__alliances"
+    }
+  },
+  "responsive-layout.tablet#home__shipments": {
+    "title": "Sección Envíos",
+    "children": [
+      "flex-layout.row#home__shipments"
+    ],
+    "props": {
+      "blockClass": "home__shipments"
+    }
+  }
 }

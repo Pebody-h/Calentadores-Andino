@@ -11,13 +11,24 @@
     },
     "search-content#home__results--searchdesktop": {
         "blocks": [
-            "gallery",
+            "gallery#novelties",
             "not-found"
         ]
     },
-    "gallery": {
-        "blocks": [
-            "product-summary.shelf"
-        ]
+    "gallery#novelties": {
+        "props": {
+            "layouts": [
+                {
+                    "name": "general-grids",
+                    "component": "GeneralGrids",
+                    "itemsPerRow": {
+                        "desktop": 4,
+                        "tablet": 3,
+                        "phone": 2
+                    }
+                }
+            ],
+            "GeneralGrids": "product-summary.shelf"
+        }
     }
 }

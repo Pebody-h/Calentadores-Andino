@@ -78,7 +78,7 @@
             "product-summary-image",
             "product-summary-name",
             "product-rating-inline",
-            "product-list-price",
+            // "product-list-price",
             "product-selling-price",
             "add-to-cart-button"
         ]
@@ -86,6 +86,11 @@
     "product-summary-name": {
         "props": {
             "tag": "h3"
+        }
+    },
+    "add-to-cart-button": {
+        "props": {
+            "text": "Añadir al carrito"
         }
     }
 }
