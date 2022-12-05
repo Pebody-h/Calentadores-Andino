@@ -1,0 +1,9 @@
+{
+    "flex-layout.row#products__related": {
+        "title": "Productos Relacionados",
+        "children": [],
+        "props": {
+            "blockClass": "products__related"
+        }
+    }
+}
