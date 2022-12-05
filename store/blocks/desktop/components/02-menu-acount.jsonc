@@ -26,7 +26,7 @@
             "type": "custom",
             "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/checkout#/cart",
                 "noFollow": false,
                 "tagTitle": "Finalizar Compra",
                 "text": "Finalizar Compra"
@@ -40,7 +40,7 @@
             "type": "custom",
             "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/checkout#/cart",
                 "noFollow": false,
                 "tagTitle": "Carrito",
                 "text": "Carrito"

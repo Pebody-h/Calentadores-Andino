@@ -45,7 +45,7 @@
         "title": "Cantidad Y Comprar",
         "children": [
             "product-quantity",
-            "buy-button"
+            "add-to-cart-button"
         ],
         "props": {
             "blockClass": "product__info--buy"
