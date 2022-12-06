@@ -5,12 +5,50 @@
 }
 
 .nameContainer {
-    height: 2.4em;
+    height: 2.5em;
     padding: .2em;
 }
 
 .brandName {
+    text-transform: capitalize;
     font-size: 1em;
     font-weight: 600;
     color: #000000;
+}
+
+.element--summary-shelf :global(.vtex-reviews-and-ratings-3-x-star--filled) {
+    color: black !important;
+}
+
+.element--summary-shelf :global(.vtex-reviews-and-ratings-3-x-star--empty) {
+    color: black !important;
+}
+
+.element--summary-shelf :global(.vtex-reviews-and-ratings-3-x-inlineContainer) {
+    display: flex;
+    justify-content: left !important;
+    margin: 0;
+}
+
+.element--summary-shelf :global(.vtex-button) {
+    background-color: transparent;
+    border-color: transparent;
+    display: flex;
+    justify-content: center;
+}
+
+.element--summary-shelf :global(.vtex-button__label) {
+    border-radius: 5px;
+    width: max-content;
+    padding: 0 !important;
+    background-color: var(--color-button);
+    border-color: var(--color-button);
+    display: flex;
+    justify-content: center;
+}
+
+.element--summary-shelf :global(.vtex-add-to-cart-button-0-x-buttonText) {
+    text-transform: capitalize !important;
+    padding: 15px 30px;
+    font-size: 15px;
 }

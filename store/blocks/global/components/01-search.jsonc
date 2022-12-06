@@ -70,15 +70,18 @@
                     }
                 }
             ],
-            "GeneralGrid": "product-summary.shelf"
+            "GeneralGrid": "product-summary.shelf",
+            "blockClass": "search__results"
         }
     },
     "product-summary.shelf": {
+        "props": {
+            "blockClass": "summary-shelf"
+        },
         "children": [
             "product-summary-image",
             "product-summary-name",
             "product-rating-inline",
-            // "product-list-price",
             "product-selling-price",
             "add-to-cart-button"
         ]
