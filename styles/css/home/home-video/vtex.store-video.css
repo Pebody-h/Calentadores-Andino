@@ -1,3 +1,4 @@
+/* Desktop */
 .videoElement--layout__video {
     margin: 0;
     padding: 0;
@@ -5,6 +6,7 @@
     height: 66.9em !important;
 }
 
+/* Tablet */
 @media screen and (min-width: 500px) and (max-width: 900px) {
     .videoElement--layout__video {
         height: 50em !important;

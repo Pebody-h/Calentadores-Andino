@@ -1,0 +1,7 @@
+{
+    "search-bar#plp__search": {
+        "props": {
+            "openAutocompleteOnFocus": true
+        }
+    }
+}

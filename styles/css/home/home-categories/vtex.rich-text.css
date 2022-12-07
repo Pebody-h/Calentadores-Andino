@@ -1,0 +1,14 @@
+/* Desktop */
+.container--title__desktop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraph--title__desktop {
+    margin: .8em;
+    font-size: 29px;
+    font-weight: 500;
+    font-style: italic;
+    color: var(--font-terciary-color);
+}

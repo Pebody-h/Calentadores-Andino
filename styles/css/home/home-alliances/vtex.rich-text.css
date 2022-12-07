@@ -1,0 +1,20 @@
+/* Desktop */
+.container--alliances {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraph--alliances {
+    font-size: 23px;
+    font-weight: 500;
+    color: var(--font-terciary-color);
+}
+
+/* Tablet */
+@media screen and (min-width: 500px) and (max-width: 900px) {
+    .paragraph--alliances {
+        text-align: center;
+        font-weight: 600;
+    }
+}

@@ -28,7 +28,7 @@
             "type": "custom",
             "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/Electrodomesticos",
                 "noFollow": false,
                 "tagTitle": "Acero Galvanizado",
                 "text": "Acero Galvanizado"
@@ -42,7 +42,7 @@
             "type": "custom",
             "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/Electrodomesticos",
                 "noFollow": false,
                 "tagTitle": "Acero Inoxidable",
                 "text": "Acero Inoxidable"
@@ -56,7 +56,7 @@
             "type": "custom",
             "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/Electrodomesticos",
                 "noFollow": false,
                 "tagTitle": "Porcelanizado",
                 "text": "Porcelanizado"
@@ -70,7 +70,7 @@
             "type": "custom",
             "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/Electrodomesticos",
                 "noFollow": false,
                 "tagTitle": "Rapida Recuperación",
                 "text": "Rapida Recuperación"
@@ -84,7 +84,7 @@
             "type": "custom",
             "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/Electrodomesticos",
                 "noFollow": false,
                 "tagTitle": "Alta Recuperación",
                 "text": "Alta Recuperación"

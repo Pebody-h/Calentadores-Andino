@@ -1,0 +1,14 @@
+/* Desktop */
+.flexRow--home__section--novelties {
+    display: flex;
+    justify-content: center;
+}
+
+.flexRow--home__section--novelties :global(.vtex-store-components-3-x-container) {
+    max-width: 1140px;
+}
+
+.flexRowContent--novelties__tittle {
+    border-top: 2px solid var(--font-primary-color);
+    border-bottom: 2px solid var(--font-primary-color);
+}

@@ -1,4 +1,4 @@
-/* section Alliances */
+/* Desktop */
 .imageElement--alliances {
     height: auto;
     max-width: 100%;
@@ -54,15 +54,9 @@
     transition: .6s;
 }
 
+/* Tablet */
 @media screen and (min-width: 500px) and (max-width: 900px) {
     .imageElement--alliances {
         margin-left: 0;
     }
-}
-
-
-/* section Shipments */
-.imageElement--shipments {
-    width: 1024px;
-    height: max-content;
 }

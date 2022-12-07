@@ -1,0 +1,12 @@
+/* Desktop */
+.container--visited__tittle {
+    margin: .5em 2em;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.container--visited__tittle {
+    justify-content: right;
+}

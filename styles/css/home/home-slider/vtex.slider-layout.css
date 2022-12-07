@@ -1,3 +1,4 @@
+/* Desktop */
 .sliderLayoutContainer--home__slider {
     padding: .85em .6em;
 }
@@ -26,7 +27,7 @@
 }
 
 
-
+/* Tablet */
 .sliderLayoutContainer--home__slider--tablet {
     padding: .85em .6em;
 }

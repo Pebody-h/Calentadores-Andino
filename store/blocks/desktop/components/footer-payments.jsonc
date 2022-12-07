@@ -1,0 +1,109 @@
+{
+    "flex-layout.col#footer__payments": {
+        "title": "Sobre Nosotros",
+        "children": [
+            "rich-text#title__payments",
+            "flex-layout.row#footer__images1",
+            "flex-layout.row#footer__images2",
+            "flex-layout.row#footer__images3"
+        ],
+        "props": {
+            "blockClass": "footer__payments"
+        }
+    },
+    "rich-text#title__payments": {
+        "title": "Titulo",
+        "props": {
+            "text": "Medios de pago",
+            "blockClass": "footer__tittle"
+        }
+    },
+    "flex-layout.row#footer__images1": {
+        "title": "Imagenes - 1",
+        "children": [
+            "image#mastercard",
+            "image#visa",
+            "image#davivienda"
+        ],
+        "props": {
+            "blockClass": "footer__images1"
+        }
+    },
+    "image#mastercard": {
+        "title": "mastercard",
+        "props": {
+            "src": "assets/img/Envios Marcas-Asociadas/pago-mastercard.jpg",
+            "blockClass": "payments"
+        }
+    },
+    "image#visa": {
+        "title": "visa",
+        "props": {
+            "src": "assets/img/Envios Marcas-Asociadas/pago-visa.jpg",
+            "blockClass": "payments"
+        }
+    },
+    "image#davivienda": {
+        "title": "davivienda",
+        "props": {
+            "src": "assets/img/Envios Marcas-Asociadas/pago-davivienda.jpg",
+            "blockClass": "payments"
+        }
+    },
+    "flex-layout.row#footer__images2": {
+        "title": "Imagenes - 2",
+        "children": [
+            "image#daviplata",
+            "image#pse",
+            "image#nequi"
+        ],
+        "props": {
+            "blockClass": "footer__images2"
+        }
+    },
+    "image#daviplata": {
+        "title": "daviplata",
+        "props": {
+            "src": "assets/img/Envios Marcas-Asociadas/pago-daviplata.jpg",
+            "blockClass": "payments"
+        }
+    },
+    "image#pse": {
+        "title": "pse",
+        "props": {
+            "src": "assets/img/Envios Marcas-Asociadas/pago-pse-2.jpg",
+            "blockClass": "payments"
+        }
+    },
+    "image#nequi": {
+        "title": "nequi",
+        "props": {
+            "src": "assets/img/Envios Marcas-Asociadas/pago-nequi-2.jpg",
+            "blockClass": "payments"
+        }
+    },
+    "flex-layout.row#footer__images3": {
+        "title": "Imagenes - 3",
+        "children": [
+            "image#multiple1",
+            "image#multiple2"
+        ],
+        "props": {
+            "blockClass": "footer__images3"
+        }
+    },
+    "image#multiple1": {
+        "title": "multiple1",
+        "props": {
+            "src": "assets/img/Envios Marcas-Asociadas/mercado-pago-1.jpg",
+            "blockClass": "payments1"
+        }
+    },
+    "image#multiple2": {
+        "title": "multiple2",
+        "props": {
+            "src": "assets/img/Envios Marcas-Asociadas/pago-payu.jpg",
+            "blockClass": "payments1"
+        }
+    }
+}

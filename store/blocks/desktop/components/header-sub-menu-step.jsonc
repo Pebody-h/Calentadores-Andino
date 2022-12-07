@@ -26,7 +26,7 @@
             "type": "custom",
             "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/Electrodomesticos",
                 "noFollow": false,
                 "tagTitle": "Tiro Natural",
                 "text": "Tiro Natural"
@@ -40,7 +40,7 @@
             "type": "custom",
             "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/Electrodomesticos",
                 "noFollow": false,
                 "tagTitle": "Tiro Forzado",
                 "text": "Tiro Forzado"
@@ -54,7 +54,7 @@
             "type": "custom",
             "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/Electrodomesticos",
                 "noFollow": false,
                 "tagTitle": "Modulante",
                 "text": "Modulante"

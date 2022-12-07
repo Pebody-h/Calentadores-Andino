@@ -1,33 +1,4 @@
 {
-    "search-result-layout.desktop#global": {
-        "children": [
-            "flex-layout.row#global__shop"
-        ],
-        "props": {
-            "blockClass": "global__shop"
-        }
-    },
-    "flex-layout.row#global__shop": {
-        "title": "Tienda",
-        "children": [
-            "flex-layout.col#shop__filters",
-            "flex-layout.col#shop__products"
-        ],
-        "props": {
-            "horizontalAlign": "center",
-            "blockClass": "global__shop"
-        }
-    },
-    "flex-layout.col#shop__filters": {
-        "title": "Filtros",
-        "children": [
-            "search-title.v2",
-            "filter-navigator.v3"
-        ],
-        "props": {
-            "blockClass": "shipments"
-        }
-    },
     "flex-layout.col#shop__products": {
         "title": "Productos",
         "children": [
@@ -35,7 +6,8 @@
             "search-content#results__content--products"
         ],
         "props": {
-            "blockClass": "shop__products"
+            "blockClass": "shop__products",
+            "width": "70%"
         }
     },
     "flex-layout.row#products__info": {
@@ -70,8 +42,7 @@
                     }
                 }
             ],
-            "GeneralGrid": "product-summary.shelf",
-            "blockClass": "search__results"
+            "GeneralGrid": "product-summary.shelf"
         }
     },
     "product-summary.shelf": {

@@ -1,0 +1,15 @@
+/* Desktop */
+.flexRow--home__alliances :global(.vtex-store-components-3-x-container) {
+    max-width: 1140px;
+    margin-bottom: 1.5em;
+}
+
+.flexColChild--alliances {
+    width: 100%;
+}
+
+.flexRowContent--brands :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
