@@ -6,8 +6,9 @@
 }
 
 .paragraph--alliances {
+    text-align: center;
     font-size: 23px;
-    font-weight: 500;
+    font-weight: bold;
     color: var(--font-terciary-color);
 }
 

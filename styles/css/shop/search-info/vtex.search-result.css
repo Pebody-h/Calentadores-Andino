@@ -1,0 +1,63 @@
+/* Desktop */
+.totalProducts--layout {
+    text-transform: capitalize;
+    font-size: 15px;
+    font-style: inherit;
+    font-weight: inherit;
+    color: #4B4F58;
+}
+
+.totalProductsMessage {
+    text-transform: capitalize;
+    font-size: 15px;
+    font-style: inherit;
+    font-weight: inherit;
+    color: #4B4F58;
+}
+
+.orderByText {
+    text-transform: capitalize;
+    font-size: 15px;
+    font-style: inherit;
+    font-weight: inherit;
+    color: #4B4F58;
+}
+
+.filterPopupTitle {
+    text-transform: capitalize;
+    font-size: 15px;
+    font-style: inherit;
+    font-weight: inherit;
+    color: #4B4F58;
+    margin-right: 4rem;
+}
+
+.orderByOptionsContainer {
+    border: 1px solid #4B4F58;
+    width: max-content;
+    margin-top: 11%;
+}
+
+.orderByOptionItem {
+    width: 100%;
+    margin: 0 !important;
+    padding: .4rem 2rem;
+    font-size: 15px;
+    font-style: inherit;
+    font-weight: inherit;
+    color: #4B4F58;
+}
+
+.orderByButton {
+    border: none !important;
+}
+
+.orderByOptionItem--selected {
+    background-color: #8ed0e4c6;
+    color: white;
+}
+
+.orderByOptionItem:hover {
+    background-color: #8ed0e4c6;
+    color: white;
+}

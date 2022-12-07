@@ -1,7 +1,8 @@
 {
     "search-bar#plp__search": {
         "props": {
-            "openAutocompleteOnFocus": true
+            "placeholder": "Buscar productos…",
+            "displayMode": "search-and-clear-buttons"
         }
     }
 }

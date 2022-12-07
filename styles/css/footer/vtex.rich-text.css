@@ -1,3 +1,4 @@
+/* Desktop */
 .wrapper--footer__tittle {
     margin-bottom: 1.4em;
 }
@@ -26,6 +27,7 @@
     font-weight: 400;
 }
 
+/* Tablet */
 @media screen and (min-width: 500px) and (max-width: 900px) {
     .paragraph--more__about {
         font-size: 88%;

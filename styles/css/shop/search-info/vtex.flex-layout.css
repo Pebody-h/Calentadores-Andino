@@ -1,0 +1,16 @@
+/* Desktop */
+.flexColChild--shop__products {
+    margin-top: 1.8em;
+    width: 100%;
+    height: max-content !important;
+}
+
+.flexRow--products__info {
+    width: 100%;
+}
+
+.flexRowContent--products__info :global(.vtex-search-result-3-x-totalProducts--layout) {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
