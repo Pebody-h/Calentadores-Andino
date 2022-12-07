@@ -1,7 +1,9 @@
+/* Desktop */
 .imageElement--payments1 {
     width: 90% !important;
 }
 
+/* Tablet */
 @media screen and (min-width: 500px) and (max-width: 900px) {
     .imageElement--payments {
         width: 70%;

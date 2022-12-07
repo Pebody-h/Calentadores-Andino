@@ -1,0 +1,49 @@
+/* Desktop */
+.autoCompleteOuterContainer :global(.vtex-input-prefix__group) {
+    height: 3rem;
+    border-radius: 0 !important;
+    border: none;
+    margin-bottom: 4em;
+}
+
+.autoCompleteOuterContainer :global(.vtex-styleguide-9-x-input) {
+    width: 62%;
+    border: 1px solid #dddddd;
+}
+
+.autoCompleteOuterContainer :global(.vtex-store-components-3-x-searchBarIcon--clear) {
+    display: none;
+}
+
+.autoCompleteOuterContainer :global(.vtex-input__suffix) {
+    border-radius: 3px;
+    width: 38%;
+    padding: 0 !important;
+    background-color: #32373c;
+    display: flex;
+    justify-content: center;
+}
+
+.autoCompleteOuterContainer :global(.vtex-input__suffix):hover {
+    background-color: #AD0000;
+    transition: .6s;
+}
+
+.externalSearchButtonWrapper {
+    border-color: transparent;
+    color: transparent;
+}
+
+.searchBarIcon {
+    background-color: transparent;
+}
+
+.searchBarIcon::before {
+    content: "BUSCAR";
+    color: white;
+    font-family: 'inter';
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
