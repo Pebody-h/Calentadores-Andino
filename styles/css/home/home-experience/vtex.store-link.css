@@ -1,0 +1,33 @@
+/* Desktop */
+.link--link__experience {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 4px;
+    padding-top: 15px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+}
+
+.link--link__experience :global(.vtex-store-link-0-x-childrenContainer--link__experience) {
+    opacity: 0;
+}
+
+.link--link__experience:hover :global(.vtex-store-link-0-x-childrenContainer--link__experience) {
+    opacity: 1;
+}
+
+.link--link__experience:hover {
+    background-color: #FFFFFF;
+    color: black;
+}
+
+.childrenContainer--link__experience {
+    margin-left: 1em;
+}

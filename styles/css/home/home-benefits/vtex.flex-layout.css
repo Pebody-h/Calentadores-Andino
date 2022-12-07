@@ -1,0 +1,35 @@
+/* Desktop */
+.flexColChild--benefits__Shipping:hover {
+    opacity: .8;
+    transition: .4s;
+}
+
+.flexColChild--benefits__dollar:hover {
+    opacity: .8;
+    transition: .4s;
+}
+
+.flexColChild--benefits__dollar {
+    height: max-content !important;
+}
+
+.flexRow--home__benefits {
+    margin-bottom: 3em;
+}
+
+.flexRow--home__benefits :global(.vtex-store-components-3-x-container) {
+    max-width: 1140px;
+}
+
+.flexCol--benefits__Shipping {
+    padding: 10px;
+    border-right: 2px solid #DED8D8;
+}
+
+.flexCol--benefits__dollar {
+    padding: 10px;
+}
+
+.flexColChild--benefits__Shipping {
+    height: max-content !important;
+}

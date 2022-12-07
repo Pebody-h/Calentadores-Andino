@@ -14,7 +14,7 @@
     "link#experience": {
         "title": "Link Experiencia",
         "props": {
-            "href": "#",
+            "href": "/sobre-nosotros",
             "label": "CONOCÉ MÁS",
             "blockClass": "link__experience"
         },

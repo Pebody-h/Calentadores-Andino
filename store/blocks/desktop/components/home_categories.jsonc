@@ -58,7 +58,7 @@
     "link#electrical": {
         "title": "Electricos",
         "props": {
-            "href": "#",
+            "href": "/Madera",
             "label": "Eléctricos",
             "displayMode": "button",
             "blockClass": "link__electrical"
@@ -87,7 +87,7 @@
     "link#gas": {
         "title": "gas",
         "props": {
-            "href": "#",
+            "href": "/Mujer",
             "label": "A Gas",
             "displayMode": "button",
             "blockClass": "link__gas"
@@ -116,7 +116,7 @@
     "link#homes": {
         "title": "homes",
         "props": {
-            "href": "#",
+            "href": "/Electrodomesticos",
             "label": "Hogares",
             "displayMode": "button",
             "blockClass": "link__homes"
@@ -145,7 +145,7 @@
     "link#industrial": {
         "title": "industrial",
         "props": {
-            "href": "#",
+            "href": "/Electrodomesticos",
             "label": "Industriales",
             "displayMode": "button",
             "blockClass": "link__industrial"

@@ -1,0 +1,17 @@
+/* Desktop */
+.container--shipments {
+    width: 100%;
+    border-top: 2px solid var(--font-primary-color);
+    border-bottom: 2px solid var(--font-primary-color);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraph--shipments {
+    font-weight: 500;
+    font-style: italic;
+    font-size: 29px;
+    color: var(--font-terciary-color);
+}

@@ -1,0 +1,34 @@
+{
+    "flex-layout.col#footer__about": {
+        "title": "Sobre Nosotros",
+        "children": [
+            "rich-text#tittle__about",
+            "rich-text#more__about",
+            "rich-text#red__about"
+        ],
+        "props": {
+            "blockClass": "footer__about"
+        }
+    },
+    "rich-text#tittle__about": {
+        "title": "Titulo",
+        "props": {
+            "text": "¿Quienes somos?",
+            "blockClass": "footer__tittle"
+        }
+    },
+    "rich-text#more__about": {
+        "title": "Descripción",
+        "props": {
+            "text": "Somos una empresa dedicada y especializada en la comercialización, reparación y mantenimiento de gasodomesticos, a demás de contar con una experiencia de más de 20 años en la industria, y suplir las necesidades de agua caliente que nuestros clientes requieren.",
+            "blockClass": "more__about"
+        }
+    },
+    "rich-text#red__about": {
+        "title": "Redes Sociales",
+        "props": {
+            "text": "Redes Sociales",
+            "blockClass": "red__about"
+        }
+    }
+}

@@ -1,4 +1,12 @@
 {
+    "flex-layout.row#minicart__button--footer": {
+        "children": [
+            "flex-layout.col#minicart__footer"
+        ],
+        "props": {
+            "blockClass": "minicart__footer"
+        }
+    },
     "flex-layout.col#minicart__footer": {
         "children": [
             "minicart-summary",
@@ -12,7 +20,7 @@
     "link#minicart__cart": {
         "title": "Carrito Compras",
         "props": {
-            "href": "#",
+            "href": "/checkout/#/cart",
             "label": "Carrito",
             "displayMode": "button",
             "blockClass": "minicart__cart"

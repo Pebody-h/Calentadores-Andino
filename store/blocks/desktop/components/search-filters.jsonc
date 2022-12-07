@@ -1,0 +1,21 @@
+{
+    "flex-layout.col#shop__filters": {
+        "title": "Filtros",
+        "children": [
+            "rich-text#title__search",
+            "filter-navigator.v3",
+            "search-bar#plp__search"
+        ],
+        "props": {
+            "blockClass": "shop__filters",
+            "width": "30%"
+        }
+    },
+    "rich-text#title__search": {
+        "title": "Titulo Catalogo",
+        "props": {
+            "text": "Categorias De Productos",
+            "blockClass": "title__search"
+        }
+    }
+}

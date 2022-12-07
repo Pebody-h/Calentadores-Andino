@@ -1,0 +1,32 @@
+/* Desktop */
+.flexColChild--home__categories-desktop {
+    max-width: 1140px;
+    width: 100%;
+    margin: .5rem 0;
+}
+
+.flexRow--title__desktop {
+    width: 100%;
+    border-top: 2px solid var(--font-primary-color);
+    border-bottom: 2px solid var(--font-primary-color);
+}
+
+.flexColChild--home__categories-desktop {
+    max-width: 1140px;
+}
+
+.flexCol--electrical {
+    padding: 10px;
+}
+
+.flexCol--gas {
+    padding: 10px;
+}
+
+.flexCol--homes {
+    padding: 10px;
+}
+
+.flexCol--industrial {
+    padding: 10px;
+}

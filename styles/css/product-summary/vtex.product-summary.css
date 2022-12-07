@@ -47,6 +47,11 @@
     justify-content: center;
 }
 
+.element--summary-shelf:hover :global(.vtex-button__label) {
+    background-color: var(--color-button-hover);
+    border-color: var(--color-button-hover);
+}
+
 .element--summary-shelf :global(.vtex-add-to-cart-button-0-x-buttonText) {
     text-transform: capitalize !important;
     padding: 15px 30px;
