@@ -24,8 +24,7 @@
             "showNavigationArrows": false,
             "thumbnailsOrientation": "horizontal",
             "zoomFactor": 2,
-            "zoomMode": "open-modal",
-            "ModalZoom": "modal-layout"
+            "zoomMode": "in-place-hover"
         }
     },
     "flex-layout.col#product__info--data": {
@@ -34,6 +33,7 @@
             "breadcrumb",
             "vtex.store-components:product-name",
             "product-price",
+            "product-description",
             "flex-layout.row#product__info--buy",
             "product-separator"
         ],
