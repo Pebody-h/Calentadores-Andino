@@ -1,0 +1,8 @@
+{
+    "search-bar#plp__search": {
+        "props": {
+            "placeholder": "Buscar productos…",
+            "displayMode": "search-and-clear-buttons"
+        }
+    }
+}

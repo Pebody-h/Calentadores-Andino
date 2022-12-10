@@ -1,0 +1,41 @@
+{
+    "flex-layout.row#product__reviews": {
+        "title": "Carcteristicas Y Opiniones",
+        "children": [
+            "tab-layout#product"
+        ],
+        "props": {
+            "blockClass": "product__reviews"
+        }
+    },
+    "tab-layout#product": {
+        "children": [
+            "tab-list#product",
+            "tab-content#product"
+        ],
+        "props": {
+            "blockClass": "Product",
+            "defaultActiveTabId": "description"
+        }
+    },
+    "tab-list#product": {
+        "children": [
+            "tab-list.item#description",
+            "tab-list.item#additional",
+            "tab-list.item#Ratings"
+        ],
+        "props": {
+            "blockClass": "Product"
+        }
+    },
+    "tab-content#product": {
+        "children": [
+            "tab-content.item#description",
+            "tab-content.item#additional",
+            "tab-content.item#Ratings"
+        ],
+        "props": {
+            "blockClass": "Product"
+        }
+    }
+}

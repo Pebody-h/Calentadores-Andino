@@ -1,0 +1,26 @@
+/* Desktop */
+.contentItem--Ratings :global(.vtex-reviews-and-ratings-3-x-container) {
+    margin: 0;
+}
+
+.contentItem--Ratings :global(.vtex-reviews-and-ratings-3-x-reviewsHeading) {
+    font-size: 15px !important;
+}
+
+.contentItem--Ratings :global(.vtex-reviews-and-ratings-3-x-reviewsRatingAverage) {
+    font-size: 15px !important;
+}
+
+.contentItem--Ratings :global(.vtex-reviews-and-ratings-3-x-reviewsRatingCount) {
+    font-size: 15px !important;
+}
+
+.contentItem--Ratings :global(.vtex-reviews-and-ratings-3-x-reviewCommentMessage) {
+    font-size: 15px !important;
+}
+
+.contentItem--Ratings :global(.vtex-dropdown__container) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

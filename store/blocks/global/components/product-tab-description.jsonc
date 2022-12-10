@@ -1,0 +1,26 @@
+{
+    "tab-list.item#description": {
+        "props": {
+            "tabId": "description",
+            "label": "Descripción",
+            "defaultActiveTab": true,
+            "blockClass": "description"
+        }
+    },
+    "tab-content.item#description": {
+        "children": [
+            "product-specifications#product__description"
+        ],
+        "props": {
+            "tabId": "description",
+            "blockClass": "description"
+        }
+    },
+    "product-specifications#product__description": {
+        "props": {
+            "shoudCollapseOnTabChange": true,
+            "collapsible": "never",
+            "blockClass": "product__description"
+        }
+    }
+}

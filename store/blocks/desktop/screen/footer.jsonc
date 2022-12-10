@@ -3,5 +3,17 @@
         "children": [
             "flex-layout.row#footer__desktop"
         ]
+    },
+    "flex-layout.row#footer__desktop": {
+        "title": "Footer",
+        "children": [
+            "flex-layout.col#footer__about",
+            "flex-layout.col#footer__links",
+            "header-spacer",
+            "flex-layout.col#footer__payments"
+        ],
+        "props": {
+            "blockClass": "footer__desktop"
+        }
     }
 }

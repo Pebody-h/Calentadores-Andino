@@ -1,0 +1,68 @@
+/* Desktop */
+.flexRow--home__experience :global(.vtex-store-components-3-x-container) {
+    width: 100% !important;
+}
+
+.flexRow--home__video {
+    margin: 3em 0;
+    padding: 0;
+    height: 66.9em;
+    width: 100% !important;
+}
+
+.flexRow--home__video :global(.vtex-store-components-3-x-container) {
+    margin: 0;
+    padding: 0;
+}
+
+.flexRow--home__video :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    margin: 0;
+    padding: 0;
+    width: 100% !important;
+    height: 100% !important;
+    position: absolute;
+}
+
+.flexCol--home__information {
+    max-width: 1140px;
+    padding: 8em;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.flexColChild--home__information {
+    width: 100%;
+    display: flex;
+    text-align: left;
+    justify-content: left;
+    align-items: center;
+    height: max-content !important;
+}
+
+.flexRow--home__video :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    justify-content: center !important;
+}
+
+/* Tablet */
+@media screen and (min-width: 500px) and (max-width: 900px) {
+    .flexRow--home__video {
+        margin-top: 8em;
+        height: 50em;
+    }
+
+    .flexRow--home__video :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+        height: 50em !important
+    }
+
+    .flexCol--home__information {
+        padding: 4em;
+    }
+
+    .flexColChild--home__information {
+        justify-content: center;
+        margin: 2em 0;
+    }
+}

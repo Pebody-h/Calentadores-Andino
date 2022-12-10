@@ -1,0 +1,18 @@
+{
+    "tab-list.item#Ratings": {
+        "props": {
+            "tabId": "Ratings",
+            "label": "Valoraciones",
+            "blockClass": "Ratings"
+        }
+    },
+    "tab-content.item#Ratings": {
+        "children": [
+            "product-reviews"
+        ],
+        "props": {
+            "tabId": "Ratings",
+            "blockClass": "Ratings"
+        }
+    }
+}

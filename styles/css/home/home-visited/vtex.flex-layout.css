@@ -1,0 +1,6 @@
+/* Desktop */
+.flexRowContent--visited__tittle {
+    margin-top: 4em;
+    border-top: 2px solid var(--font-primary-color);
+    border-bottom: 2px solid var(--font-primary-color);
+}

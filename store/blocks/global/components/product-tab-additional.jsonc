@@ -1,0 +1,25 @@
+{
+    "tab-list.item#additional": {
+        "props": {
+            "tabId": "additional",
+            "label": "Información adicional",
+            "blockClass": "additional"
+        }
+    },
+    "tab-content.item#additional": {
+        "children": [
+            "product-specifications#product__additional"
+        ],
+        "props": {
+            "tabId": "additional",
+            "blockClass": "additional"
+        }
+    },
+    "product-specifications#product__additional": {
+        "props": {
+            "shoudCollapseOnTabChange": true,
+            "collapsible": "never",
+            "blockClass": "product__additional"
+        }
+    }
+}

@@ -1,0 +1,112 @@
+/* Desktop */
+.flexRow--product__info :global(.vtex-store-components-3-x-container) {
+    max-width: 1240px;
+}
+
+.flexRowContent--product__info :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    padding: 0 15px;
+}
+
+.flexColChild--product__info--data :global(.vtex-breadcrumb-1-x-link) {
+    color: #777;
+    font-size: 14px;
+}
+
+.flexColChild--product__info--data :global(.vtex-breadcrumb-1-x-arrow) {
+    color: #777;
+    font-size: 14px;
+}
+
+.flexColChild--product__info--data :global(.vtex-breadcrumb-1-x-term) {
+    color: #777;
+    font-size: 14px;
+}
+
+.flexColChild--product__info--data {
+    height: max-content !important;
+    padding: .6em 0;
+}
+
+.flexColChild--product__info--data :global(.vtex-store-components-3-x-productBrand) {
+    color: var(--font-terciary-color);
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+.flexColChild--product__info--data :global(.vtex-store-components-3-x-sellingPrice) {
+    color: #4B4F58;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.flexColChild--product__info--data :global(.vtex-store-components-3-x-content) {
+    color: #4B4F58;
+    font-size: 15px;
+    margin-bottom: .4em;
+}
+
+.flexColChild--product__info--data :global(.vtex-store-components-3-x-productDescriptionTitle) {
+    display: none;
+}
+
+.flexRowContent--product__info--buy {
+    justify-content: left;
+}
+
+.flexRowContent--product__info--buy :global(.vtex-product-quantity-1-x-quantitySelectorTitle) {
+    display: none;
+}
+
+.flexRowContent--product__info--buy :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    padding: 0 !important;
+    width: max-content !important;
+    height: 2.2rem !important;
+    overflow: hidden;
+}
+
+.flexRowContent--product__info--buy :global(.vtex-button) {
+    width: max-content !important;
+    min-height: 1rem !important;
+    background-color: #0170B9;
+    border-color: #0170B9;
+    border: 1px solid;
+    border-radius: 4px;
+    margin-left: 1em;
+}
+
+.flexRowContent--product__info--buy :global(.vtex-button):hover {
+    background-color: var(--font-terciary-color);
+    border-color: var(--font-terciary-color);
+}
+
+.flexRowContent--product__info--buy :global(.vtex-add-to-cart-button-0-x-buttonText) {
+    font-size: 15px !important;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.flexRowContent--product__info--buy :global(.vtex-button__label) {
+    padding: 0 1em !important;
+}
+
+.flexRowContent--product__info--buy :global(.vtex-product-quantity-1-x-quantitySelectorContainer) {
+    margin: 0 !important;
+}
+
+.flexRowContent--product__info--buy :global(.vtex-dropdown__container) {
+    height: 2.2em !important;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #dddddd;
+    border-radius: 1px;
+}
+
+.flexRowContent--product__info--buy :global(.vtex-dropdown__arrow) {
+    opacity: 0;
+}
+
+.flexRowContent--product__info--buy :global(.vtex-dropdown__arrow):hover {
+    opacity: 1 !important;
+}

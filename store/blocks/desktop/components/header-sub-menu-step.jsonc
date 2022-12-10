@@ -1,0 +1,65 @@
+{
+    "vtex.menu@2.x:submenu#category__step": {
+        "title": "Sub-Categorias De Paso",
+        "children": [
+            "menu#category__step"
+        ],
+        "props": {
+            "blockClass": "category__step"
+        }
+    },
+    "menu#category__step": {
+        "title": "Sub-Categorias",
+        "children": [
+            "menu-item#sub__category-natural",
+            "menu-item#sub__category-forced",
+            "menu-item#sub__category-modulating"
+        ],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "category__step"
+        }
+    },
+    "menu-item#sub__category-natural": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/Electrodomesticos",
+                "noFollow": false,
+                "tagTitle": "Tiro Natural",
+                "text": "Tiro Natural"
+            },
+            "blockClass": "category"
+        }
+    },
+    "menu-item#sub__category-forced": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/Electrodomesticos",
+                "noFollow": false,
+                "tagTitle": "Tiro Forzado",
+                "text": "Tiro Forzado"
+            },
+            "blockClass": "category"
+        }
+    },
+    "menu-item#sub__category-modulating": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/Electrodomesticos",
+                "noFollow": false,
+                "tagTitle": "Modulante",
+                "text": "Modulante"
+            },
+            "blockClass": "category"
+        }
+    }
+}

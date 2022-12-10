@@ -1,0 +1,11 @@
+/* Desktop */
+.flexRow--global__shop {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.6em;
+}
+
+.flexRow--global__shop :global(.vtex-store-components-3-x-container) {
+    width: 100%;
+    max-width: 1325px;
+}

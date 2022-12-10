@@ -1,0 +1,14 @@
+/* Desktop */
+.link--link__novelties {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    text-decoration: none;
+}
+
+.label--link__novelties {
+    margin: 2em 2em;
+    color: var(--font-primary-color);
+    font-size: inherit;
+    font-weight: 600;
+}

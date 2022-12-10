@@ -1,22 +1,17 @@
-.buttonLink {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 2rem;
-    width: 38px;
-    height: 38px;
-    background-color: #818a91;
-    border-radius: 50%;
-}
-
-.buttonLink:hover {
-    background-color: black;
-}
-
+/* Desktop */
 .container {
     width: 40px;
     background-color: #818a91;
     border-radius: 50%;
     display: flex;
     justify-content: center;
+}
+
+.container:hover {
+    background-color: black !important;
+}
+
+container :global(.vtex-button):focus,
+.container :global(.vtex-button):hover {
+    background-color: transparent;
 }

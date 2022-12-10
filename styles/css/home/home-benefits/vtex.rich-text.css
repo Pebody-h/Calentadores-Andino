@@ -1,0 +1,65 @@
+/* Desktop */
+.paragraph--title__envio {
+    color: var(--font-terciary-color);
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin: .9rem;
+}
+
+.paragraph--envio {
+    margin: .2rem;
+    color: #A09999;
+    font-size: 14px;
+}
+
+.paragraph--title__maintenance {
+    color: var(--font-terciary-color);
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.paragraph--maintenance {
+    margin: .2rem;
+    color: #A09999;
+    font-size: 14px;
+}
+
+.wrapper--check--mark {
+    text-align: center;
+}
+
+.paragraph--title__check--mark {
+    color: var(--font-terciary-color);
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.paragraph--check--mark {
+    margin: .2rem;
+    color: #A09999;
+    font-size: 14px;
+}
+
+.wrapper--dollar {
+    text-align: center;
+}
+
+.paragraph--title__dollar {
+    color: var(--font-terciary-color);
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin: .8rem;
+}
+
+.paragraph--dollar {
+    margin: .2rem;
+    color: #A09999;
+    font-size: 14px;
+}
+
+/* Tablet */
+@media screen and (min-width: 500px) and (max-width: 900px) {
+    .wrapper--title__maintenance {
+        text-align: center;
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "minicart-empty-state": {
+        "children": [
+            "rich-text#text__empty"
+        ],
+        "props": {
+            "blockClass": "empty__state"
+        }
+    },
+    "rich-text#text__empty": {
+        "title": "Texto Carrito",
+        "props": {
+            "text": "No products in the cart.",
+            "textPosition": "CENTER",
+            "blockClass": "text__empty"
+        }
+    }
+}

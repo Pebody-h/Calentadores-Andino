@@ -1,0 +1,81 @@
+{
+    "flex-layout.col#footer__links": {
+        "title": "Sobre Nosotros",
+        "children": [
+            "rich-text#title__links",
+            "link#cart",
+            "link#finaly",
+            "link#home",
+            "link#acount",
+            "link#service",
+            "link#about",
+            "link#shop"
+        ],
+        "props": {
+            "blockClass": "footer__links"
+        }
+    },
+    "rich-text#title__links": {
+        "title": "Titulo",
+        "props": {
+            "text": "Enlaces",
+            "blockClass": "footer__tittle"
+        }
+    },
+    "link#cart": {
+        "title": "Carrito",
+        "props": {
+            "href": "/checkout#/cart",
+            "label": "Carrito",
+            "blockClass": "link__footer"
+        }
+    },
+    "link#finaly": {
+        "title": "Finalizar Compra",
+        "props": {
+            "href": "/checkout#/cart",
+            "label": "Finalizar Compra",
+            "blockClass": "link__footer"
+        }
+    },
+    "link#home": {
+        "title": "Home",
+        "props": {
+            "href": "/",
+            "label": "Home",
+            "blockClass": "link__footer"
+        }
+    },
+    "link#acount": {
+        "title": "Mi Cuenta",
+        "props": {
+            "href": "/account",
+            "label": "Mi cuenta",
+            "blockClass": "link__footer"
+        }
+    },
+    "link#service": {
+        "title": "Servicío Técnico",
+        "props": {
+            "href": "/servicio-tecnico",
+            "label": "Servicio Técnico",
+            "blockClass": "link__footer"
+        }
+    },
+    "link#about": {
+        "title": "Sobre Nosotros",
+        "props": {
+            "href": "/sobre-nosotros",
+            "label": "Sobre Nosotros",
+            "blockClass": "link__footer"
+        }
+    },
+    "link#shop": {
+        "title": "Tienda",
+        "props": {
+            "href": "/Electrodomesticos",
+            "label": "Tienda",
+            "blockClass": "link__footer"
+        }
+    }
+}

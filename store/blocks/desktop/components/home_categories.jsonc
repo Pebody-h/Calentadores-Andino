@@ -1,0 +1,164 @@
+{
+    "flex-layout.col#home__categories-desktop": {
+        "title": "Opciones",
+        "children": [
+            "flex-layout.row#title__desktop",
+            "flex-layout.row#categories__desktop"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "blockClass": "home__categories-desktop"
+        }
+    },
+    "flex-layout.row#title__desktop": {
+        "title": "Titulo",
+        "children": [
+            "rich-text#title__desktop"
+        ],
+        "props": {
+            "blockClass": "title__desktop"
+        }
+    },
+    "rich-text#title__desktop": {
+        "title": "Titulo",
+        "props": {
+            "text": "ENCUENTRA TU CALENTADOR IDEAL",
+            "blockClass": "title__desktop"
+        }
+    },
+    "flex-layout.row#categories__desktop": {
+        "title": "Imagenes",
+        "children": [
+            "flex-layout.col#electrical",
+            "flex-layout.col#gas",
+            "flex-layout.col#homes",
+            "flex-layout.col#industrial"
+        ],
+        "props": {
+            "blockClass": "categories__desktop"
+        }
+    },
+    "flex-layout.col#electrical": {
+        "title": "Opciones",
+        "children": [
+            "image#image__electrical",
+            "link#electrical"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "blockClass": "electrical"
+        }
+    },
+    "image#image__electrical": {
+        "title": "Imagen Electricos",
+        "props": {
+            "src": "assets/img/Categorias/calentador-de-acumulacion-electrico-de-30-galones.jpg"
+        }
+    },
+    "link#electrical": {
+        "title": "Electricos",
+        "props": {
+            "href": "/Madera",
+            "label": "Eléctricos",
+            "displayMode": "button",
+            "blockClass": "link__electrical"
+        },
+        "children": [
+            "icon#señal"
+        ]
+    },
+    "flex-layout.col#gas": {
+        "title": "Opciones",
+        "children": [
+            "image#image__gas",
+            "link#gas"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "blockClass": "gas"
+        }
+    },
+    "image#image__gas": {
+        "title": "Imagen Gas",
+        "props": {
+            "src": "assets/img/Categorias/calentador-de-acumulacion-a-gas-de-10-galones.jpg"
+        }
+    },
+    "link#gas": {
+        "title": "gas",
+        "props": {
+            "href": "/Mujer",
+            "label": "A Gas",
+            "displayMode": "button",
+            "blockClass": "link__gas"
+        },
+        "children": [
+            "icon#señal"
+        ]
+    },
+    "flex-layout.col#homes": {
+        "title": "Opciones",
+        "children": [
+            "image#image__homes",
+            "link#homes"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "blockClass": "homes"
+        }
+    },
+    "image#image__homes": {
+        "title": "Imagen Hogares",
+        "props": {
+            "src": "assets/img/Categorias/calentador-de-acumulacion-a-gas-con-tubo-difusor-de-30-galones.jpg"
+        }
+    },
+    "link#homes": {
+        "title": "homes",
+        "props": {
+            "href": "/Electrodomesticos",
+            "label": "Hogares",
+            "displayMode": "button",
+            "blockClass": "link__homes"
+        },
+        "children": [
+            "icon#señal"
+        ]
+    },
+    "flex-layout.col#industrial": {
+        "title": "Opciones",
+        "children": [
+            "image#image__industrial",
+            "link#industrial"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "blockClass": "industrial"
+        }
+    },
+    "image#image__industrial": {
+        "title": "Imagen Industriales",
+        "props": {
+            "src": "assets/img/Categorias/calentador-de-acumulacion-a-gas-alta-recuperacion-de-40-galones.jpg"
+        }
+    },
+    "link#industrial": {
+        "title": "industrial",
+        "props": {
+            "href": "/Electrodomesticos",
+            "label": "Industriales",
+            "displayMode": "button",
+            "blockClass": "link__industrial"
+        },
+        "children": [
+            "icon#señal"
+        ]
+    },
+    "icon#señal": {
+        "props": {
+            "id": "señal",
+            "size": 16,
+            "blockClass": "señal"
+        }
+    }
+}

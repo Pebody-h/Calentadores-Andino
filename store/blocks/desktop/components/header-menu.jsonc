@@ -1,0 +1,83 @@
+{
+    "vtex.menu@2.x:menu#header__menu--desktop": {
+        "title": "Departamentos",
+        "children": [
+            "menu-item#department__shop",
+            "menu-item#department__acount",
+            "menu-item#department__service",
+            "menu-item#department__about-us"
+        ]
+    },
+    "menu-item#department__shop": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/Electrodomesticos",
+                "noFollow": false,
+                "tagTitle": "Tienda",
+                "text": "TIENDA"
+            },
+            "iconProps": {
+                "id": "flecha",
+                "size": 7
+            },
+            "iconPosition": "right",
+            "blockClass": "department__shop"
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#department__shop"
+        ]
+    },
+    "menu-item#department__acount": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/account",
+                "noFollow": false,
+                "tagTitle": "Mi Cuenta",
+                "text": "MI CUENTA"
+            },
+            "iconProps": {
+                "id": "flecha",
+                "size": 7
+            },
+            "iconPosition": "right",
+            "blockClass": "department__acount"
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#department__acount"
+        ]
+    },
+    "menu-item#department__service": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/servicio-tecnico",
+                "noFollow": false,
+                "tagTitle": "Servicio Técnico",
+                "text": "SERVICIO TÉCNICO"
+            },
+            "blockClass": "department__service"
+        }
+    },
+    "menu-item#department__about-us": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/sobre-nosotros",
+                "noFollow": false,
+                "tagTitle": "Sobre Nosotros",
+                "text": "SOBRE NOSOTROS"
+            },
+            "blockClass": "department__about-us"
+        }
+    }
+}
