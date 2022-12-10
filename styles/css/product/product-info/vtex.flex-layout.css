@@ -59,9 +59,54 @@
 
 .flexRowContent--product__info--buy :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
     padding: 0 !important;
-    width: max-content;
+    width: max-content !important;
+    height: 2.2rem !important;
+    overflow: hidden;
 }
 
 .flexRowContent--product__info--buy :global(.vtex-button) {
-    height: 2rem !important;
+    width: max-content !important;
+    min-height: 1rem !important;
+    background-color: #0170B9;
+    border-color: #0170B9;
+    border: 1px solid;
+    border-radius: 4px;
+    margin-left: 1em;
+}
+
+.flexRowContent--product__info--buy :global(.vtex-button):hover {
+    background-color: var(--font-terciary-color);
+    border-color: var(--font-terciary-color);
+}
+
+.flexRowContent--product__info--buy :global(.vtex-add-to-cart-button-0-x-buttonText) {
+    font-size: 15px !important;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.flexRowContent--product__info--buy :global(.vtex-button__label) {
+    padding: 0 1em !important;
+}
+
+.flexRowContent--product__info--buy :global(.vtex-product-quantity-1-x-quantitySelectorContainer) {
+    margin: 0 !important;
+}
+
+.flexRowContent--product__info--buy :global(.vtex-dropdown__container) {
+    height: 2.2em !important;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #dddddd;
+    border-radius: 1px;
+}
+
+.flexRowContent--product__info--buy :global(.vtex-dropdown__arrow) {
+    opacity: 0;
+}
+
+.flexRowContent--product__info--buy :global(.vtex-dropdown__arrow):hover {
+    opacity: 1 !important;
 }

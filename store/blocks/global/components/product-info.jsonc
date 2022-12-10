@@ -50,5 +50,10 @@
         "props": {
             "blockClass": "product__info--buy"
         }
+    },
+    "product-quantity": {
+        "props": {
+            "selectorType": "dropdown"
+        }
     }
 }

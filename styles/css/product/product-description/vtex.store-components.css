@@ -1,0 +1,53 @@
+/* Desktop */
+.specificationsTableContainer {
+    padding: 0;
+    margin-left: .4em;
+}
+
+.specificationsTitle {
+    display: none;
+}
+
+.specificationsTableHead {
+    display: none;
+}
+
+.specificationItemProperty--product__description {
+    border: none;
+    width: max-content;
+    padding: 0;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    color: #515151;
+}
+
+.specificationItemProperty--product__description::before {
+    margin-right: .6em;
+    content: "";
+    display: inline-flex;
+    width: .4em;
+    height: .4em;
+    border-radius: 50%;
+    background-color: #515151;
+}
+
+.specificationItemProperty--product__description::after {
+    content: ":";
+    color: #515151;
+    margin-left: .4em;
+}
+
+.specificationsTableRow {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.specificationItemSpecifications--product__description {
+    border: none;
+    width: max-content;
+    padding: 0;
+    font-size: 15px;
+    margin-left: .4em;
+}

@@ -42,6 +42,10 @@
     height: max-content !important;
 }
 
+.flexRow--home__video :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    justify-content: center !important;
+}
+
 /* Tablet */
 @media screen and (min-width: 500px) and (max-width: 900px) {
     .flexRow--home__video {

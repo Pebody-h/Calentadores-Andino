@@ -1,0 +1,28 @@
+/* Desktop */
+.flexRow--product__reviews :global(.vtex-store-components-3-x-container) {
+    max-width: 1240px !important;
+    margin-top: 3rem;
+}
+
+.flexRow--product__reviews :global(.vtex-button) {
+    border: none;
+    background-color: transparent;
+    margin-bottom: .8rem;
+}
+
+.flexRow--product__reviews :global(.vtex-button__label) {
+    color: #515151 !important;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: capitalize !important;
+    justify-content: left !important;
+    padding: 0;
+}
+
+.flexRow--product__reviews :global(.vtex-button__label):hover {
+    color: #6b6a6b !important;
+}
+
+.flexRow--product__reviews :global(.vtex-tab-layout-0-x-listItemActive) {
+    border-top: 3px solid var(--hover-header-color);
+}
