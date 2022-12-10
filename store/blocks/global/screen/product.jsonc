@@ -3,6 +3,7 @@
     "children": [
       "flex-layout.row#header__middle",
       "flex-layout.row#product__info",
+      "flex-layout.row#product__reviews",
       "flex-layout.row#products__related"
     ]
   }

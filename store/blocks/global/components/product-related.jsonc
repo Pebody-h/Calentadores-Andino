@@ -1,9 +1,27 @@
 {
     "flex-layout.row#products__related": {
         "title": "Productos Relacionados",
-        "children": [],
+        "children": [
+            "shelf.relatedProducts#product__similars--shelf"
+        ],
         "props": {
             "blockClass": "products__related"
+        }
+    },
+    "shelf.relatedProducts#product__similars--shelf": {
+        "title": "Seccion Productos Relacionados",
+        "blocks": [
+            "product-summary.shelf"
+        ],
+        "props": {
+            "recommendation": "similars",
+            "hideOutOfStockItems": true,
+            "productList": {
+                "titleText": "Productos relacionados",
+                "itemsPerPage": 5
+            },
+            "scroll": "BY_PAGE",
+            "blockClass": "product__similars--shelf"
         }
     }
 }

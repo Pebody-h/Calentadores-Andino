@@ -1,0 +1,13 @@
+/* Desktop */
+.listItem {
+    display: grid;
+    justify-content: left !important;
+}
+
+.listContainer {
+    justify-content: left !important;
+}
+
+.contentItem {
+    padding: 0;
+}

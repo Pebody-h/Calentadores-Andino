@@ -1,0 +1,50 @@
+.flexRow--products__related :global(.vtex-store-components-3-x-container) {
+    max-width: 1240px;
+}
+
+.flexRowContent--products__related :global(.vtex-slider-0-x-dotsContainer) {
+    display: none;
+}
+
+.flexRowContent--products__related :global(.vtex-product-summary-2-x-container) {
+    margin: 0;
+    padding-bottom: 2rem;
+}
+
+.flexRowContent--products__related :global(.vtex-product-summary-2-x-nameContainer) {
+    margin-left: 1em;
+    justify-content: left !important;
+}
+
+.flexRowContent--products__related :global(.vtex-product-price-1-x-sellingPrice) {
+    display: flex;
+    justify-content: left !important;
+    margin-left: 1em;
+}
+
+.flexRowContent--products__related :global(.vtex-button) {
+    justify-content: left !important;
+    margin-left: 1em;
+}
+
+.flexRowContent--products__related :global(.vtex-reviews-and-ratings-3-x-inlineContainer) {
+    margin-left: 1em;
+}
+
+.flexRowContent--products__related :global(.vtex-button__label) {
+    background-color: #0170b9 !important;
+}
+
+.flexRowContent--products__related :global(.vtex-button__label):hover {
+    background-color: #3a3a3a !important;
+}
+
+.flexRowContent--products__related :global(.vtex-shelf-1-x-title) {
+    font-size: 22.5px;
+    text-align: left;
+    justify-content: left !important;
+    font-weight: 600;
+    color: #515151;
+    margin-left: 1em;
+    margin-top: 1.6em;
+}
