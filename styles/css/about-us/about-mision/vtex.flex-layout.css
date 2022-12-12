@@ -1,0 +1,50 @@
+/* Desktop */
+.flexRow--mission :global(.vtex-store-components-3-x-container) {
+    width: 100%;
+    margin: 0 !important;
+    padding: 0;
+    max-width: 100%;
+}
+
+.flexCol--mission__info {
+    display: flex;
+    justify-content: center;
+}
+
+.flexRowContent--image__mission {
+    padding: 10px 0;
+    max-width: 1536px !important;
+}
+
+.flexRow--mission__inf {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    background-image: linear-gradient(90deg, #f6f6f6 34%, rgba(255, 255, 255, 0) 34%);
+    padding: 60px 0;
+}
+
+.flexRowContent--mission__inf {
+    max-width: 1250px;
+}
+
+.flexColChild--mission__info {
+    width: 100%;
+}
+
+.flexRow--image__mission {
+    display: flex;
+    justify-content: center;
+}
+
+.flexCol--image__mission {
+    padding: 30px 30px 30px 20px;
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #002257 0%, #012257 100%);
+}
+
+.flexCol--mission__inf {
+    padding: 30px 40px;
+}

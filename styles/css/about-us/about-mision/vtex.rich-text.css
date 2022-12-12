@@ -1,0 +1,15 @@
+/* Desktop */
+.paragraph--title__mission {
+    color: #252930;
+    font-family: "Poppins", Sans-serif;
+    font-size: 58px;
+    font-weight: 400;
+    line-height: 76px;
+    letter-spacing: 0px;
+    margin: 0;
+}
+
+.paragraph--info__mission {
+    color: #727982;
+    font-size: 15px;
+}
