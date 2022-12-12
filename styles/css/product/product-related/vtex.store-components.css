@@ -1,0 +1,7 @@
+.specificationsTableBody--product__description {
+    width: 50%;
+}
+
+.specificationsTableRow--product__description {
+    display: inline-table;
+}
