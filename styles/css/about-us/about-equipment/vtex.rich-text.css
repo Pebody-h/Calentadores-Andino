@@ -1,0 +1,9 @@
+/* Desktop */
+.paragraph--title__equipment {
+    color: #ffffff;
+    font-size: 3.8em;
+    font-weight: 400;
+    padding-top: 1.8rem;
+    padding-bottom: 1rem;
+    border-bottom: 3px solid #ffffff;
+}

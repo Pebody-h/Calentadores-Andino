@@ -1,5 +1,6 @@
+/* Desktop */
 .specificationItemProperty--product__additional {
-    width: max-content;
+    width: 11rem;
     font-size: 15px;
     font-weight: 600;
     color: #515151;
@@ -8,6 +9,8 @@
     border-left: 1px solid;
     border-right: .5px solid;
     border-color: #dddddd;
+    display: flex;
+    align-items: center;
 }
 
 .specificationItemSpecifications--product__additional {
@@ -18,4 +21,8 @@
     border-bottom: .5px solid;
     border-right: 1px solid;
     border-color: #dddddd;
+}
+
+.specificationsTableRow--product__additional {
+    align-items: inherit !important;
 }

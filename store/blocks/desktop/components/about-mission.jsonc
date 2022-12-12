@@ -17,7 +17,7 @@
         ],
         "props": {
             "horizontalAlign": "center",
-            "blockClass": "mission"
+            "blockClass": "mission__info"
         }
     },
     "flex-layout.row#image__mission": {
@@ -43,7 +43,7 @@
             "flex-layout.col#text-mission"
         ],
         "props": {
-            "blockClass": "mission"
+            "blockClass": "mission__inf"
         }
     },
     "flex-layout.col#img__mission": {
@@ -69,7 +69,7 @@
             "link#catalogue"
         ],
         "props": {
-            "blockClass": "image__mission"
+            "blockClass": "mission__inf"
         }
     },
     "rich-text#title__mission": {
@@ -89,7 +89,7 @@
     "link#catalogue": {
         "title": "Electricos",
         "props": {
-            "href": "#",
+            "href": "/Electrodomesticos",
             "label": "Ver Catalogo",
             "displayMode": "button",
             "blockClass": "catalogue"
