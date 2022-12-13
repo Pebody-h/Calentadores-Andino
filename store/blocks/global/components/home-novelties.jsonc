@@ -38,7 +38,7 @@
     "link#novelties": {
         "title": "Novedades",
         "props": {
-            "href": "#",
+            "href": "/Electrodomesticos",
             "label": "VER TODO",
             "blockClass": "link__novelties"
         }

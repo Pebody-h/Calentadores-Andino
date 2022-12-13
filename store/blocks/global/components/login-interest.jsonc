@@ -1,0 +1,20 @@
+{
+    "flex-layout.col#login__interest": {
+        "title": "Puede Interesarte",
+        "children": [
+            "rich-text#tittle__interest",
+            "search-result-layout.customQuery#home__showcase--novelties"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "blockClass": "login__interest"
+        }
+    },
+    "rich-text#tittle__interest": {
+        "title": "Titulo Interes",
+        "props": {
+            "text": "PRODUCTOS QUE PODRIAN INTERESARTE",
+            "blockClass": "tittle__interest"
+        }
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "flex-layout.col#login__register": {
+        "title": "Registrarce Loguearce",
+        "children": [
+            "flex-layout.row#login__acceder",
+            "login-content"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "blockClass": "login__register"
+        }
+    },
+    "flex-layout.row#login__acceder": {
+        "title": "Sección Login",
+        "children": [
+            "rich-text#text__one",
+            "rich-text#text__two"
+        ],
+        "props": {
+            "blockClass": "login__acceder"
+        }
+    },
+    "rich-text#text__one": {
+        "title": "Acceder",
+        "props": {
+            "text": "Acceder",
+            "blockClass": "text__one--login"
+        }
+    },
+    "rich-text#text__two": {
+        "title": "Registrarse",
+        "props": {
+            "text": "Registrarse",
+            "blockClass": "text__two--login"
+        }
+    }
+}

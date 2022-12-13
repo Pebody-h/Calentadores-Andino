@@ -1,0 +1,81 @@
+/* Desktop */
+.flexRow--login__register {
+    display: flex;
+    justify-content: center;
+}
+
+.flexRowContent--login__register {
+    padding: 10px;
+    margin-top: 2rem;
+    max-width: 1100px !important;
+}
+
+.flexColChild--login__register {
+    width: 100% !important;
+}
+
+.flexColChild--login__register :global(.vtex-login-2-x-content) {
+    max-width: 100% !important;
+    width: 100% !important;
+    display: flex;
+    justify-content: left;
+    padding: 0 !important;
+}
+
+.flexColChild--login__register :global(.vtex-login-2-x-loginOptionsContainer) {
+    width: 50% !important;
+    display: flex;
+    justify-content: left;
+}
+
+.flexColChild--login__register :global(.vtex-login-2-x-contentForm) {
+    width: 50% !important;
+    display: flex;
+    justify-content: left;
+}
+
+.flexColChild--login__register :global(.vtex-login-2-x-formTitle) {
+    text-align: left;
+    padding: 0 1.6rem;
+    color: #696969;
+    font-weight: 700;
+    font-size: .9rem;
+}
+
+.flexColChild--login__register :global(.vtex-login-2-x-options) {
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+}
+
+.flexColChild--login__register :global(.vtex-button) {
+    border: none;
+    border-radius: 2px;
+    padding: 0 1.6rem;
+    margin-bottom: .6rem;
+    background-color: transparent;
+}
+
+.flexColChild--login__register :global(.vtex-button__label) {
+    padding: 1rem 1.5rem !important;
+    border-radius: 2px;
+    width: max-content;
+    background-color: #0170b9;
+    color: #ffffff;
+}
+
+.flexColChild--login__register :global(.vtex-button__label):hover {
+    background-color: #515151;
+}
+
+.flexColChild--login__register :global(.vtex-login-2-x-emailVerification) {
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+}
+
+.flexColChild--login__register :global(.vtex-login-2-x-inputContainer) {
+    padding: 1rem 1.5rem !important;
+}
+
+.flexColChild--login__register :global(.vtex-login-2-x-formLinkContainer) {
+    padding: 1rem 1.5rem !important;
+}

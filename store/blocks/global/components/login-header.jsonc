@@ -1,0 +1,11 @@
+{
+    "flex-layout.col#login__header--middle": {
+        "title": "Login Header Middle",
+        "children": [
+            "flex-layout.row#header__middle"
+        ],
+        "props": {
+            "blockClass": "header__middle"
+        }
+    }
+}

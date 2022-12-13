@@ -1,0 +1,74 @@
+{
+    "flex-layout.row#login__icons": {
+        "title": "Sección Registrarce",
+        "children": [
+            "icon#Login__cart",
+            "rich-text#login__cart--text",
+            "icon#Login__wallet",
+            "rich-text#login__wallet--text",
+            "icon#Login__gift",
+            "rich-text#login__gift--text",
+            "icon#Login__headphones",
+            "rich-text#login__headphones--text"
+        ],
+        "props": {
+            "blockClass": "login__icons"
+        }
+    },
+    "icon#Login__cart": {
+        "props": {
+            "id": "login__cart",
+            "size": 42,
+            "blockClass": "Login__cart"
+        }
+    },
+    "rich-text#login__cart--text": {
+        "title": "Titulo Login Cart",
+        "props": {
+            "text": "Envios Nacionales",
+            "blockClass": "login__cart--text"
+        }
+    },
+    "icon#Login__wallet": {
+        "props": {
+            "id": "login__wallet",
+            "size": 42,
+            "blockClass": "Login__wallet"
+        }
+    },
+    "rich-text#login__wallet--text": {
+        "title": "Titulo Login Wallet",
+        "props": {
+            "text": "Pagos Seguros",
+            "blockClass": "Login__wallet--text"
+        }
+    },
+    "icon#Login__gift": {
+        "props": {
+            "id": "login__gift",
+            "size": 42,
+            "blockClass": "Login__gift"
+        }
+    },
+    "rich-text#login__gift--text": {
+        "title": "Titulo Login Gift",
+        "props": {
+            "text": "Cupones De Descuentoss",
+            "blockClass": "login__gift--text"
+        }
+    },
+    "icon#Login__headphones": {
+        "props": {
+            "id": "login__headphones",
+            "size": 42,
+            "blockClass": "Login__headphones"
+        }
+    },
+    "rich-text#login__headphones--text": {
+        "title": "Soporte 24/7",
+        "props": {
+            "text": "Envios Nacionales",
+            "blockClass": "Login__headphones--text"
+        }
+    }
+}
