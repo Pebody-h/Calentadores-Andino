@@ -2,3 +2,29 @@
 .summaryItemContainer:nth-child(2n) {
     display: none;
 }
+
+.summarySmallDisclaimer {
+    display: none;
+}
+
+.summaryItemLabel {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center !important;
+}
+
+.summaryItemLabel::after {
+    content: ":";
+    color: #515151;
+    margin-right: .4em;
+}
+
+.summaryItemContainer {
+    text-align: center !important;
+}
+
+.summaryItemPrice {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center !important;
+}

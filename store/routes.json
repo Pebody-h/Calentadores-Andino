@@ -6,5 +6,9 @@
     "store.custom#service": {
         "title": "Servicio Técnico",
         "path": "/servicio-tecnico"
+    },
+    "store.custom#login": {
+        "title": "Iniciar Sesion",
+        "path": "/login"
     }
 }
