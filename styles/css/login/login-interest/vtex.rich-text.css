@@ -1,0 +1,18 @@
+/* Desktop */
+.paragraph--tittle__interest {
+    color: #000000;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.paragraph--tittle__interest::before {
+    margin-right: .4rem;
+    content: "~~~~~~";
+    color: #696969;
+}
+
+.paragraph--tittle__interest::after {
+    margin-left: .4rem;
+    content: "~~~~~~";
+    color: #696969;
+}

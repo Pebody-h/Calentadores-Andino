@@ -1,8 +1,0 @@
-{
-    "responsive-layout.desktop#login": {
-        "title": "Inicio Sesion",
-        "children": [
-            "flex-layout.row#header__middle"
-        ]
-    }
-}

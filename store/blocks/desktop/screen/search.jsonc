@@ -18,5 +18,21 @@
             "horizontalAlign": "center",
             "blockClass": "global__shop"
         }
+    },
+    "search-not-found-layout": {
+        "title": "Search Not Found Result",
+        "props": {
+            "blockClass": "search-not--found-layout"
+        },
+        "children": [
+            "rich-text#search__not--found--text"
+        ]
+    },
+    "rich-text#search__not--found--text": {
+        "title": "No Se Encuentra",
+        "props": {
+            "text": "It seems we can't find what you're looking for.",
+            "blockClass": "search__not-found--text"
+        }
     }
 }

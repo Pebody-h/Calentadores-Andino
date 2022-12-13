@@ -1,0 +1,10 @@
+/* Desktop */
+.flexRow--login__interest {
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.flexRowContent--login__interest {
+    max-width: 1100px !important;
+}
