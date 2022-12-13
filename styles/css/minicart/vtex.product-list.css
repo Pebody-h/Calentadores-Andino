@@ -1,0 +1,8 @@
+/* Desktop */
+.productListUnavailableItemsMessage--minicart__desktop {
+    display: none;
+}
+
+.productImageContainer--minicart__image {
+    margin: 0 !important;
+}

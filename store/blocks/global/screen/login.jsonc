@@ -1,0 +1,7 @@
+{
+    "store.custom#login": {
+        "blocks": [
+            "responsive-layout.desktop#login"
+        ]
+    }
+}
