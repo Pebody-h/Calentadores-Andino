@@ -54,8 +54,17 @@
     transition: .6s;
 }
 
+
 /* Tablet */
-@media screen and (min-width: 500px) and (max-width: 900px) {
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    .imageElement--alliances {
+        margin-left: 0;
+    }
+}
+
+
+/* Mobile */
+@media screen and (min-width: 250px) and (max-width: 599px) {
     .imageElement--alliances {
         margin-left: 0;
     }

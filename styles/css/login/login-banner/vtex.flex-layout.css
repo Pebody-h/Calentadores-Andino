@@ -34,3 +34,18 @@
     font-size: 18px;
     font-weight: 600;
 }
+
+
+/* Mobile */
+@media screen and (min-width: 250px) and (max-width: 599px) {
+    .flexColChild--login__banner {
+        width: 23rem !important;
+        padding: 1rem;
+    }
+
+    .flexRowContent--login__icons {
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+    }
+}

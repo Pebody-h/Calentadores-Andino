@@ -12,3 +12,11 @@
     font-size: inherit;
     font-weight: 600;
 }
+
+
+/* Mobile */
+@media screen and (min-width: 250px) and (max-width: 599px) {
+    .link--link__novelties {
+        display: none;
+    }
+}

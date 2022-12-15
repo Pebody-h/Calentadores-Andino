@@ -37,3 +37,11 @@
     align-items: center;
     margin-bottom: 20px;
 }
+
+
+/* Mobile */
+@media screen and (min-width: 250px) and (max-width: 599px) {
+    .flexRowContent--home__experience :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+        margin: 1rem 0;
+    }
+}

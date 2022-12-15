@@ -5,7 +5,7 @@
         ]
     },
     "flex-layout.row#footer__desktop": {
-        "title": "Footer",
+        "title": "Footer Escritorio",
         "children": [
             "flex-layout.col#footer__about",
             "flex-layout.col#footer__links",

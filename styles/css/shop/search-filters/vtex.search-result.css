@@ -173,3 +173,21 @@
 .filter__container--ingredientes :global(.vtex-search-result-3-x-filterAvailable) {
     padding-top: 0 !important;
 }
+
+
+/* Mobile */
+@media screen and (min-width: 250px) and (max-width: 599px) {
+    .totalProducts--layout {
+        display: flex;
+        justify-content: center !important;
+    }
+
+    .orderByButton {
+        display: flex;
+        justify-content: center !important;
+    }
+
+    .filterPopupTitle {
+        margin-right: 1rem !important;
+    }
+}

@@ -14,5 +14,15 @@
             "blockClass": "footer__mobile"
         }
     },
-    "flex-layout.row#footer__mobile": {}
+    "flex-layout.row#footer__mobile": {
+        "title": "Footer",
+        "children": [
+            "flex-layout.col#footer__about",
+            "flex-layout.col#footer__links",
+            "flex-layout.col#footer__payments"
+        ],
+        "props": {
+            "blockClass": "footer__desktop"
+        }
+    }
 }

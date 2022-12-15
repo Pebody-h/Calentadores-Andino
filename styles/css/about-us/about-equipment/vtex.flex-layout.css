@@ -76,3 +76,31 @@
     transform: scale(1.2);
     opacity: .8;
 }
+
+
+/* Mobile */
+@media screen and (min-width: 250px) and (max-width: 599px) {
+    .flexColChild--equipment-desktop {
+        padding: 1rem;
+    }
+
+    .flexColChild--equipment__image1 :global(.vtex-store-components-3-x-imageElement--equipment__image1) {
+        position: inherit;
+        top: 0 !important;
+        overflow: hidden;
+    }
+
+    .flexColChild--equipment__image2 :global(.vtex-store-components-3-x-imageElement--equipment__image2) {
+        position: inherit;
+        top: 0 !important;
+        overflow: hidden;
+    }
+
+    .flexColChild--equipment__image1 {
+        height: max-content !important;
+    }
+
+    .flexColChild--equipment__image2 {
+        height: max-content !important;
+    }
+}

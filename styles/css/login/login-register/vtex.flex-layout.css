@@ -79,3 +79,19 @@
 .flexColChild--login__register :global(.vtex-login-2-x-formLinkContainer) {
     padding: 1rem 1.5rem !important;
 }
+
+
+/* Mobile */
+@media screen and (min-width: 250px) and (max-width: 599px) {
+    .flexColChild--login__register :global(.vtex-login-2-x-content) {
+        display: grid !important;
+    }
+
+    .flexColChild--login__register :global(.vtex-login-2-x-loginOptionsContainer) {
+        margin-bottom: 1rem;
+    }
+
+    .flexColChild--login__register :global(.vtex-button__label) {
+        width: 70% !important;
+    }
+}

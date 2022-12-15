@@ -9,3 +9,16 @@
     width: 100%;
     max-width: 1325px;
 }
+
+
+/* Mobile */
+@media screen and (min-width: 250px) and (max-width: 599px) {
+    .flexRow--header__middle {
+        display: none;
+    }
+
+    .flexColChild--shop__filters :global(.vtex-search-result-3-x-filterPopupTitle) {
+        text-align: center;
+        margin: 0;
+    }
+}

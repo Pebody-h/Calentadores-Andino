@@ -1,0 +1,73 @@
+{
+    "vtex.menu@2.x:submenu.accordion#department__shop": {
+        "title": "Departamento Tienda",
+        "children": [
+            "menu#department__shop--mobile"
+        ],
+        "props": {
+            "blockClass": "submenudepartment__shop"
+        }
+    },
+    "menu#department__shop--mobile": {
+        "title": "Categorias",
+        "children": [
+            "menu-item#category__electric",
+            "menu-item#category__gas",
+            "menu-item#category__home",
+            "menu-item#category__industry",
+            "menu-item#category__step--mobile",
+            "menu-item#category__accumulation--mobile",
+            "menu-item#category__andino",
+            "menu-item#category__haceb",
+            "menu-item#category__challenger"
+        ],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "department__shop"
+        }
+    },
+    "menu-item#category__step--mobile": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/Electrodomesticos",
+                "noFollow": false,
+                "tagTitle": "Calentadores de Pasos",
+                "text": "Calentadores de Paso"
+            },
+            "iconProps": {
+                "id": "flecha",
+                "size": 7
+            },
+            "iconPosition": "right",
+            "blockClass": "category"
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#category__step"
+        ]
+    },
+    "menu-item#category__accumulation--mobile": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/Madera",
+                "noFollow": false,
+                "tagTitle": "Calentadores de Acumulación",
+                "text": "Calentadores de Acumulación"
+            },
+            "iconProps": {
+                "id": "flecha",
+                "size": 7
+            },
+            "iconPosition": "right",
+            "blockClass": "category"
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#category__accumulation"
+        ]
+    }
+}

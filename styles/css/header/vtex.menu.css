@@ -123,3 +123,37 @@
     color: black;
     font-size: 16px;
 }
+
+
+/* Mobile */
+@media screen and (min-width: 250px) and (max-width: 599px) {
+    .accordionIcon {
+        display: none;
+    }
+
+    .menuContainer {
+        width: 100% !important;
+    }
+
+    .styledLinkContainer--department__shop {
+        display: -webkit-box !important;
+    }
+
+    .styledLinkContainer--department__acount {
+        display: -webkit-box !important;
+    }
+
+    .styledLinkContainer {
+        display: flex !important;
+        justify-content: center;
+    }
+
+    .submenuAccordion {
+        justify-content: center;
+    }
+
+    .styledLinkContent {
+        color: var(--font-header-color);
+        font-size: 14px;
+    }
+}

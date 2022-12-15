@@ -1,0 +1,12 @@
+/* Mobile */
+@media screen and (min-width: 250px) and (max-width: 599px) {
+    .opened {
+        width: 100% !important;
+    }
+
+    .childrenContainer {
+        width: 100% !important;
+        display: flex;
+        justify-content: center;
+    }
+}

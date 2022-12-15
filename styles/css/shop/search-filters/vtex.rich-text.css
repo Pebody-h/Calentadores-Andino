@@ -5,3 +5,12 @@
     font-weight: bold;
     line-height: 1.5em;
 }
+
+
+/* Mobile */
+@media screen and (min-width: 250px) and (max-width: 599px) {
+    .container--title__search {
+        display: flex;
+        justify-content: center;
+    }
+}

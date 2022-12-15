@@ -33,3 +33,11 @@
 .flexColChild--benefits__Shipping {
     height: max-content !important;
 }
+
+
+/* Mobile */
+@media screen and (min-width: 250px) and (max-width: 599px) {
+    .flexCol--benefits__Shipping {
+        border-right: none;
+    }
+}

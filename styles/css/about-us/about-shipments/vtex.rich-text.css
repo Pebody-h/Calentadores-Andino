@@ -1,0 +1,7 @@
+/* Desktop */
+.paragraph--about__shipments-title {
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    color: var(--font-terciary-color);
+}
