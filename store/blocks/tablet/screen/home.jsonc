@@ -9,7 +9,7 @@
     }
   },
   "responsive-layout.tablet#video": {
-    "title": "Video",
+    "title": "Video tablet",
     "children": [
       "flex-layout.row#home__video"
     ],
@@ -18,13 +18,13 @@
     }
   },
   "responsive-layout.tablet#home__categories": {
-    "title": "Sección Categorias",
+    "title": "Sección Categorias tablet",
     "children": [
       "flex-layout.row#home__categories-desktop"
     ]
   },
   "responsive-layout.tablet#home__experience": {
-    "title": "Sección Experiencia",
+    "title": "Sección Experiencia tablet",
     "children": [
       "flex-layout.row#home__experience"
     ],
@@ -33,7 +33,7 @@
     }
   },
   "responsive-layout.tablet#home__benefits": {
-    "title": "Sección Beneficios",
+    "title": "Sección Beneficios tablet",
     "children": [
       "flex-layout.row#home__benefits"
     ],
@@ -42,7 +42,7 @@
     }
   },
   "responsive-layout.tablet#home__alliances": {
-    "title": "Sección Alianzas",
+    "title": "Sección Alianzas tablet",
     "children": [
       "flex-layout.row#home__alliances"
     ],
@@ -51,7 +51,7 @@
     }
   },
   "responsive-layout.tablet#home__shipments": {
-    "title": "Sección Envíos",
+    "title": "Sección Envíos tablet",
     "children": [
       "flex-layout.row#home__shipments"
     ],

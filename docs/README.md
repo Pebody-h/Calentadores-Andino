@@ -4,33 +4,21 @@ VTEX-Store-Theme-Andino fue realizado utilizando la tecnología vtex io
 
 www.calentadoresandino.com fue la tienda elegida para realizar el clon de este proyecto, teniendo en cuenta las distintas dimensiones de las pantallas, tanto en mobile y como en desktop
 
-<!-- ## Galería de imágenes
+## Galería de imágenes
 
 ### Versión Desktop
 
-![Preview](../assets/img/image-readme-desktop.png)
-![Preview](../assets/img/image-readme-desktop2.png)
-![Preview](../assets/img/image-readme-desktop3.png)
-![Preview](../assets/img/image-readme-desktop4.png)
+![Preview](../assets/img/Proyect/home-desktop.JPG)
+![Preview](../assets/img/Proyect/login-desktop.JPG)
+![Preview](../assets/img/Proyect/shop-desktop.JPG)
+![Preview](../assets/img/Proyect/footer-desktop.JPG)
 
-#### Page List Product
-
-![Preview](../assets/img/image-readme-plp.png)
-![Preview](../assets/img/image-readme-plp2.png)
-
-#### Page Detail Product
-
-![Preview](../assets/img/image-readme-plp4.png)
-![Preview](../assets/img/image-readme-pdp-mob.png)
-
-#### Custom Pages
-
-![Preview](../assets/img/image-readme-pc1.png)
-![Preview](../assets/img/image-readme-pc2.png)
 ### Versión Mobile
 
-![Preview](../assets/img/image-readme-mobile1.png)
-![Preview](../assets/img/image-readme-mobile2.png) -->
+![Preview](../assets/img/Proyect/home-phone.JPG)
+![Preview](../assets/img/Proyect/login-phone.JPG)
+![Preview](../assets/img/Proyect/shop-phone.JPG)
+![Preview](../assets/img/Proyect/footer-phone.JPG)
 
 ## Configuración
 
