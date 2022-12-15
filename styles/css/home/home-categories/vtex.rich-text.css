@@ -12,3 +12,11 @@
     font-style: italic;
     color: var(--font-terciary-color);
 }
+
+
+/* Mobile */
+@media screen and (min-width: 250px) and (max-width: 599px) {
+    .paragraph--title__desktop {
+        text-align: center;
+    }
+}

@@ -17,3 +17,39 @@
 .openIconContainer :global(.vtex-button):hover {
     background-color: transparent;
 }
+
+.closeIconContainer {
+    width: 95% !important;
+    justify-content: right !important;
+}
+
+.minicartTitle {
+    display: none;
+}
+
+.minicartEmptyStateContainer {
+    justify-content: flex-start !important;
+}
+
+.minicartProductListContainer--product__list {
+    height: max-content !important;
+}
+
+.minicartContentContainer--base__content {
+    height: max-content !important;
+}
+
+.minicartSideBarContentWrapper {
+    width: 90% !important;
+}
+
+.minicartCheckoutButton {
+    padding: 0;
+}
+
+.minicartCheckoutButton :global(.vtex-button) {
+    padding: 1rem 0;
+    border: none;
+    background-color: #818a91;
+    border-radius: 2px;
+}

@@ -1,14 +1,18 @@
 {
     "header-row#header__phone": {
-        "title": "Barra navegación",
+        "title": "Barra navegación moviles",
         "children": [
             "logo#header__logo",
             "header-spacer",
             "drawer#header__menu--mobile"
-        ]
+        ],
+        "props": {
+            "sticky": true,
+            "blockClass": "header__phone"
+        }
     },
     "drawer#header__menu--mobile": {
-        "title": "menu",
+        "title": "Menu Mobile",
         "children": [
             "menu#header__menu--mobile"
         ]
@@ -16,13 +20,72 @@
     "menu#header__menu--mobile": {
         "title": "Departamentos",
         "children": [
-            "menu-item#department__shop",
-            "menu-item#department__acount",
+            "menu-item#department__shop--mobile",
+            "menu-item#department__acount--mobile",
             "menu-item#department__service",
-            "menu-item#department__about-us"
+            "menu-item#department__about-us",
+            "menu-item#department__login"
         ],
         "props": {
             "orientation": "vertical"
+        }
+    },
+    "menu-item#department__shop--mobile": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/Electrodomesticos",
+                "noFollow": false,
+                "tagTitle": "Tienda",
+                "text": "TIENDA"
+            },
+            "iconProps": {
+                "id": "flecha",
+                "size": 7
+            },
+            "iconPosition": "right",
+            "blockClass": "department__shop"
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#department__shop"
+        ]
+    },
+    "menu-item#department__acount--mobile": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/account",
+                "noFollow": false,
+                "tagTitle": "Mi Cuenta",
+                "text": "MI CUENTA"
+            },
+            "iconProps": {
+                "id": "flecha",
+                "size": 7
+            },
+            "iconPosition": "right",
+            "blockClass": "department__acount"
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#department__acount"
+        ]
+    },
+    "menu-item#department__login": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/account",
+                "noFollow": false,
+                "tagTitle": "Mi Cuenta",
+                "text": "Login"
+            },
+            "blockClass": "department__acount"
         }
     }
 }

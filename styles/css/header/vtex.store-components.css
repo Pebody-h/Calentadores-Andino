@@ -11,3 +11,15 @@
     transition: transform .4s;
     transform: scale(1.1);
 }
+
+
+/* Mobile */
+@media screen and (min-width: 250px) and (max-width: 599px) {
+    .logoImage--logo__image {
+        width: 6em;
+    }
+
+    .logoLink--logo__image {
+        margin: 0;
+    }
+}

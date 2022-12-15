@@ -1,0 +1,30 @@
+/* Mobile */
+@media screen and (min-width: 250px) and (max-width: 599px) {
+    .container--login__cart--text {
+        display: flex;
+        justify-content: center;
+        margin: 0 !important;
+    }
+
+    .container--Login__wallet--text{
+        display: flex;
+        justify-content: center;
+        margin: 0 !important;
+    }
+
+    .container--login__gift--text{
+        display: flex;
+        justify-content: center;
+        margin: 0 !important;
+    }
+
+    .container--Login__headphones--text {
+        display: flex;
+        justify-content: center;
+        margin: 0 !important;
+    }
+
+    .container--text__two--login {
+        display: none;
+    }
+}

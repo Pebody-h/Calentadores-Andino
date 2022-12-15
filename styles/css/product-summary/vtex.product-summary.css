@@ -58,3 +58,15 @@
     padding: 15px 30px;
     font-size: 15px;
 }
+
+
+/* Mobile */
+@media screen and (min-width: 250px) and (max-width: 599px) {
+    .brandName {
+        margin: .4em 0;
+    }
+
+    .nameContainer {
+        overflow: hidden;
+    }
+}

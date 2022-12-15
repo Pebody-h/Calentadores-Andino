@@ -98,3 +98,11 @@
 .headerRowContainer--header__tablet :global(.vtex-menu-2-x-submenuWrapper--category__accumulation--isOpen) {
     margin-left: 14.8rem;
 }
+
+
+/* Mobile */
+@media screen and (min-width: 250px) and (max-width: 599px){
+    .headerRowContentContainer--header__phone {
+        height: 100% !important;
+    }
+}

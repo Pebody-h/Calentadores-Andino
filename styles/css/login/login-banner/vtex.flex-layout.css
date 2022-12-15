@@ -1,0 +1,51 @@
+/* Desktop */
+.flexRow--login__global :global(.vtex-store-components-3-x-container) {
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width: 100% !important;
+}
+
+.flexRow--login__banner {
+    display: flex;
+    justify-content: center;
+}
+
+.flexRowContent--login__banner {
+    max-width: 1400px !important;
+}
+
+.flexRowContent--login__icons {
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexRowContent--login__banner :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: max-content !important;
+    margin-right: 1rem;
+}
+
+.flexRowContent--login__banner :global(.vtex-rich-text-0-x-container) {
+    margin-right: 4rem;
+}
+
+.flexRowContent--login__banner :global(.vtex-rich-text-0-x-paragraph) {
+    color: #222222;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+/* Mobile */
+@media screen and (min-width: 250px) and (max-width: 599px) {
+    .flexColChild--login__banner {
+        width: 23rem !important;
+        padding: 1rem;
+    }
+
+    .flexRowContent--login__icons {
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+    }
+}

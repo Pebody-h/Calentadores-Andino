@@ -9,7 +9,8 @@
   "responsive-layout.phone#menu": {
     "title": "telefono",
     "children": [
-      "header-row#header__phone"
+      "header-row#header__phone",
+      "header-row#header__middle"
     ]
   }
 }

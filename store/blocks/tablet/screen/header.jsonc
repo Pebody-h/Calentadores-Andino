@@ -1,6 +1,6 @@
 {
   "responsive-layout.tablet#menu": {
-    "title": "tablet",
+    "title": "Header tablet",
     "children": [
       "header-row#header__tablet--1"
     ],

@@ -1,0 +1,18 @@
+{
+    "flex-layout.col#login__banner": {
+        "title": "Banner",
+        "children": [
+            "image#login-image",
+            "flex-layout.row#login__icons"
+        ],
+        "props": {
+            "blockClass": "login__banner"
+        }
+    },
+    "image#login-image": {
+        "title": "Imagen Login",
+        "props": {
+            "src": "assets/img/Banners/banner-mi-cuenta.jpg"
+        }
+    }
+}

@@ -15,14 +15,92 @@
     padding: 0 50px 80px 80px;
 }
 
-.flexColChild--equipment__image {
+.flexColChild--equipment__image1 {
     padding: 10px;
     height: 30rem !important;
     overflow: hidden;
     margin-bottom: 1rem;
 }
 
-.flexColChild--equipment__image :global(.vtex-store-components-3-x-imageElement) {
+.flexColChild--equipment__image1:hover::before {
+    content: "Fredy Garcia";
+    top: 40%;
+    left: 40%;
+    position: relative;
+    z-index: 998;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    transition: 1s;
+}
+
+.flexColChild--equipment__image1 :global(.vtex-store-components-3-x-imageElement--equipment__image1) {
     position: relative;
     top: -40%;
+    overflow: hidden;
+    transition: transform 1s;
+}
+
+.flexColChild--equipment__image1 :global(.vtex-store-components-3-x-imageElement--equipment__image1):hover {
+    transform: scale(1.2);
+    opacity: .8;
+}
+
+.flexColChild--equipment__image2 {
+    padding: 10px;
+    height: 30rem !important;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
+.flexColChild--equipment__image2:hover::before {
+    content: "Ramon López";
+    top: 40%;
+    left: 40%;
+    position: relative;
+    z-index: 998;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    transition: 1s;
+}
+
+.flexColChild--equipment__image2 :global(.vtex-store-components-3-x-imageElement--equipment__image2) {
+    position: relative;
+    top: -40%;
+    overflow: hidden;
+    transition: transform 1s;
+}
+
+.flexColChild--equipment__image2 :global(.vtex-store-components-3-x-imageElement--equipment__image2):hover {
+    transform: scale(1.2);
+    opacity: .8;
+}
+
+
+/* Mobile */
+@media screen and (min-width: 250px) and (max-width: 599px) {
+    .flexColChild--equipment-desktop {
+        padding: 1rem;
+    }
+
+    .flexColChild--equipment__image1 :global(.vtex-store-components-3-x-imageElement--equipment__image1) {
+        position: inherit;
+        top: 0 !important;
+        overflow: hidden;
+    }
+
+    .flexColChild--equipment__image2 :global(.vtex-store-components-3-x-imageElement--equipment__image2) {
+        position: inherit;
+        top: 0 !important;
+        overflow: hidden;
+    }
+
+    .flexColChild--equipment__image1 {
+        height: max-content !important;
+    }
+
+    .flexColChild--equipment__image2 {
+        height: max-content !important;
+    }
 }

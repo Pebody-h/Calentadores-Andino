@@ -1,0 +1,12 @@
+{
+    "vtex.menu@2.x:submenu.accordion#department__acount": {
+        "title": "Departamento Mi Cuenta",
+        "children": [
+            "menu#department__acount"
+        ],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "department__acount"
+        }
+    }
+}

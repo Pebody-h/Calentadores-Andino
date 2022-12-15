@@ -1,0 +1,12 @@
+{
+    "responsive-layout.phone#info": {
+        "title": "Sobre nosotros Mobiles",
+        "children": [
+            "flex-layout.row#header__middle",
+            "flex-layout.row#mission-desktop",
+            "flex-layout.row#equipment-desktop",
+            "flex-layout.row#about__alliances",
+            "flex-layout.row#about__shipments"
+        ]
+    }
+}

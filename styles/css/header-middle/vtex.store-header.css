@@ -1,0 +1,36 @@
+/* Mobile */
+.headerRowContentContainer--header__middle {
+    background-color: #262a2b;
+    height: 100%;
+}
+
+.headerRowContainer--header__middle {
+    display: flex;
+    justify-content: center;
+}
+
+.headerRowContentContainer--header__middle :global(.vtex-store-link-0-x-link--facebook) {
+    margin: 1rem;
+    width: 20px !important;
+}
+
+.headerRowContentContainer--header__middle :global(.vtex-store-link-0-x-childrenContainer--facebook) {
+    width: 20px !important;
+}
+
+.headerRowContentContainer--header__middle :global(.vtex-store-link-0-x-link--whatsapp) {
+    margin: 1rem;
+}
+
+.headerRowContentContainer--header__middle :global(.vtex-store-link-0-x-childrenContainer--whatsapp) {
+    width: 20px !important;
+}
+
+.headerRowContentContainer--header__middle :global(.vtex-store-link-0-x-link--instagram) {
+    margin: 1rem;
+}
+
+
+.headerRowContentContainer--header__middle :global(.vtex-store-link-0-x-childrenContainer--instagram) {
+    width: 20px !important;
+}

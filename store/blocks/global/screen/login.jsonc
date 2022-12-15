@@ -1,0 +1,70 @@
+{
+    "store.login": {
+        "title": "Iniciar Sesion",
+        "children": [
+            "flex-layout.row#login__global"
+        ],
+        "props": {
+            "blockClass": "login"
+        }
+    },
+    "flex-layout.row#login__global": {
+        "title": "Sección Login",
+        "children": [
+            "flex-layout.col#login__container"
+        ],
+        "props": {
+            "blockClass": "login__global"
+        }
+    },
+    "flex-layout.col#login__container": {
+        "title": "Sección Login",
+        "children": [
+            "flex-layout.row#login__header--middle",
+            "flex-layout.row#login__banner",
+            "flex-layout.row#login__register",
+            "flex-layout.row#login__interest"
+        ],
+        "props": {
+            "blockClass": "login__container"
+        }
+    },
+    "flex-layout.row#login__header--middle": {
+        "title": "Sección Header Middle",
+        "children": [
+            "flex-layout.col#login__header--middle"
+        ],
+        "props": {
+            "blockClass": "login__header--middle"
+        }
+    },
+    "flex-layout.row#login__banner": {
+        "title": "Sección Banner",
+        "children": [
+            "flex-layout.col#login__banner"
+        ],
+        "props": {
+            "blockClass": "login__banner"
+        }
+    },
+    "flex-layout.row#login__register": {
+        "title": "Sección Registrarce",
+        "children": [
+            "flex-layout.col#login__register"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "blockClass": "login__register"
+        }
+    },
+    "flex-layout.row#login__interest": {
+        "title": "Sección Registrarce",
+        "children": [
+            "flex-layout.col#login__interest"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "blockClass": "login__interest"
+        }
+    }
+}

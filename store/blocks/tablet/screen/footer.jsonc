@@ -1,6 +1,6 @@
 {
     "responsive-layout.tablet#footer": {
-        "title": "Footer",
+        "title": "Footer Tablet",
         "children": [
             "flex-layout.row#footer__desktop"
         ],

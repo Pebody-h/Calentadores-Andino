@@ -55,21 +55,23 @@
             "image#img__equipment-2"
         ],
         "props": {
-            "blockClass": "equipment__image"
+            "blockClass": "equipment__image1"
         }
     },
     "image#img__equipment-1": {
         "title": "Imagen Fredy 1",
         "props": {
             "src": "assets/img/Sobre-Nosotros/Fredy-Garcia-equipo-trabajo-trabajando.jpg",
-            "blockClass": "equipment__image1"
+            "blockClass": "equipment__image1",
+            "title": "Fredy Garcia"
         }
     },
     "image#img__equipment-2": {
         "title": "Imagen Fredy ",
         "props": {
             "src": "assets/img/Sobre-Nosotros/Fredy-Garcia-equipo-trabajo.jpg",
-            "blockClass": "equipment__image2"
+            "blockClass": "equipment__image1",
+            "title": "Fredy Garcia"
         }
     },
     "flex-layout.col#equipment-2": {
@@ -79,21 +81,23 @@
             "image#img__equipment-4"
         ],
         "props": {
-            "blockClass": "equipment__image"
+            "blockClass": "equipment__image2"
         }
     },
     "image#img__equipment-3": {
         "title": "Imagen smid 1",
         "props": {
             "src": "assets/img/Sobre-Nosotros/Ramon-Lopez-equipo-trabajo.jpg",
-            "blockClass": "equipment__image1"
+            "blockClass": "equipment__image2",
+            "title": "Ramon López"
         }
     },
     "image#img__equipment-4": {
         "title": "Imagen smid 2",
         "props": {
             "src": "assets/img/Sobre-Nosotros/Ramon-Lopez-equipo-trabajo-trabajando.jpg",
-            "blockClass": "equipment__image2"
+            "blockClass": "equipment__image2",
+            "title": "Ramon López"
         }
     }
 }

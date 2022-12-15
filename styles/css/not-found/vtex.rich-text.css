@@ -1,0 +1,7 @@
+/* Desktop */
+.container--search__not-found--text {
+    display: flex;
+    justify-content: center;
+    text-align: center !important;
+    margin: 2rem 0;
+}

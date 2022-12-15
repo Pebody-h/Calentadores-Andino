@@ -1,0 +1,14 @@
+{
+    "header-row#header__middle": {
+        "title": "Barra navegación",
+        "children": [
+            "link#facebook",
+            "link#whatsapp",
+            "link#instagram"
+        ],
+        "props": {
+            "sticky": false,
+            "blockClass": "header__middle"
+        }
+    }
+}

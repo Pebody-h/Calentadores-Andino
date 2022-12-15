@@ -6,9 +6,18 @@
     height: 66.9em !important;
 }
 
+
 /* Tablet */
-@media screen and (min-width: 500px) and (max-width: 900px) {
+@media screen and (min-width: 600px) and (max-width: 900px) {
     .videoElement--layout__video {
         height: 50em !important;
+    }
+}
+
+
+/* Mobile */
+@media screen and (min-width: 250px) and (max-width: 599px) {
+    .videoElement--layout__video {
+        height: 40em !important;
     }
 }

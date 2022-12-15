@@ -1,0 +1,35 @@
+/* Desktop */
+.paragraph--tittle__interest {
+    color: #000000;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.paragraph--tittle__interest::before {
+    margin-right: .4rem;
+    content: "~~~~~~";
+    color: #696969;
+}
+
+.paragraph--tittle__interest::after {
+    margin-left: .4rem;
+    content: "~~~~~~";
+    color: #696969;
+}
+
+
+/* Mobile */
+@media screen and (min-width: 250px) and (max-width: 599px) {
+    .paragraph--tittle__interest {
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .paragraph--tittle__interest::before {
+        content: "";
+    }
+    
+    .paragraph--tittle__interest::after {
+        content: "";
+    }
+}

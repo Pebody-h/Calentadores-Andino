@@ -1,0 +1,12 @@
+/* Desktop */
+.whatsapp_button {
+    z-index: 999;
+}
+
+/* Movil */
+@media screen and (min-width: 250px) and (max-width: 599px) {
+    .whatsapp_image {
+        width: 50px !important;
+        height: 50px !important;
+    }
+}

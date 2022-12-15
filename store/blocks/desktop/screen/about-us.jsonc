@@ -1,6 +1,6 @@
 {
     "responsive-layout.desktop#info": {
-        "title": "Sobre nosotros",
+        "title": "Sobre nosotros Escritorio",
         "children": [
             "flex-layout.row#header__middle",
             "flex-layout.row#mission-desktop",

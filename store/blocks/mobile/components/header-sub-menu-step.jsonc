@@ -1,0 +1,11 @@
+{
+    "vtex.menu@2.x:submenu.accordion#category__step": {
+        "title": "Sub-Categorias De Paso",
+        "children": [
+            "menu#category__step"
+        ],
+        "props": {
+            "blockClass": "category__step"
+        }
+    }
+}
